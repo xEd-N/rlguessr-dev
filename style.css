@@ -209,6 +209,125 @@ input { font-family: inherit; }
     color: #8fa4cc;
 }
 
+<<<<<<< HEAD
+=======
+/* ===== Sélecteur de langue (hub-top) =====
+   Réutilise .hud-pill (bord/fond/rayon partagés avec les pilules du HUD).
+   Menu déroulant : même patron visuel que .mode-menu, adapté pour s'ancrer
+   à droite du bouton (le bouton est en fin de .hub-top). */
+
+.lang-wrap { position: relative; }
+
+.lang-btn {
+    cursor: pointer;
+    gap: 8px;
+    padding: 8px 14px;
+    font-family: var(--f-cond);
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    font-size: 12.5px;
+    color: #cfd8ee;
+    align-items: center;
+    transition: border-color .15s ease, background .15s ease, color .15s ease;
+}
+
+.lang-btn:hover {
+    color: #fff;
+    border-color: rgba(120, 160, 255, .38);
+    background: rgba(120, 160, 255, .09);
+}
+
+.lang-globe {
+    width: 15px;
+    height: 15px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.6;
+    flex: none;
+}
+
+.lang-code {
+    font-variant-numeric: tabular-nums;
+}
+
+.lang-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    z-index: 200;
+    min-width: 160px;
+    padding: 6px;
+    border: 1px solid rgba(120, 160, 255, .28);
+    border-radius: 12px;
+    background: rgba(6, 10, 22, .96);
+    box-shadow: 0 22px 48px rgba(0, 0, 0, .55);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    animation: rlg-pop .18s ease both;
+    backdrop-filter: blur(10px);
+}
+
+.lang-menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 9px 12px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: #cfd8ee;
+    font-family: var(--f-cond);
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-size: 12.5px;
+    text-align: left;
+    cursor: pointer;
+    transition: background .12s ease, border-color .12s ease, color .12s ease;
+}
+
+.lang-menu-item:hover {
+    background: rgba(0, 148, 255, .14);
+    border-color: rgba(0, 148, 255, .5);
+    color: #fff;
+}
+
+.lang-menu-item.active {
+    background: rgba(0, 148, 255, .18);
+    border-color: rgba(0, 148, 255, .55);
+    color: #fff;
+}
+
+.lang-menu-item .lang-item-code {
+    opacity: .5;
+    font-size: 11px;
+}
+
+/* Ajustements RTL — la plupart des mises en page en flex/grid marchent
+   telles quelles quand `dir="rtl"` est posé sur <html>, mais quelques
+   éléments positionnés en absolu doivent être miroir. */
+:root[dir="rtl"] .lang-menu {
+    right: auto;
+    left: 0;
+}
+
+:root[dir="rtl"] .mode-menu {
+    left: auto;
+    right: 0;
+}
+
+/* Le titre "RL / GUESSR" et le lettrage fantôme restent en LTR : c'est un
+   nom de marque, pas du texte à lire. */
+:root[dir="rtl"] .hero-title,
+:root[dir="rtl"] .hero-ghost {
+    direction: ltr;
+    text-align: left;
+}
+
+>>>>>>> 6d64bad (v6)
 /* ===== Hero ===== */
 
 .hero {

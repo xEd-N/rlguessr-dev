@@ -19,6 +19,15 @@ const preloadedImages = [];
 // connaître le détail de chaque mode de test.
 let currentPool = [];
 let sessionPlayerCount = 0;
+<<<<<<< HEAD
+=======
+
+// Nom de mode affiché : `displayNameKey` pour tout ce qui a une entrée i18n
+// (repose sur la langue courante et suit `rlg-lang-changed`), `displayName`
+// pour un libellé issu des données sans traduction (nom d'une LAN, par
+// exemple). resolveDisplayName() renvoie le bon des deux.
+let currentDisplayNameKey = "";
+>>>>>>> 6d64bad (v6)
 let currentDisplayName = "";
 
 // Optionnel : fonction qui retire un nouveau pool à chaque "Play Again"
@@ -49,7 +58,13 @@ let eraPeriod = "before";    // "before" ou "after", choisi via le toggle de la 
 // donne donc exactement le même découpage des joueurs ; celle-ci n'a pas
 // besoin d'être ajustée si de nouveaux joueurs rejoignent le roster.
 const ERA_CUTOFF = "2021-07-01";
+<<<<<<< HEAD
 const ERA_LABELS = { before: "Before Season X", after: "After Season X" };
+=======
+// Clés i18n plutôt qu'un mapping vers des libellés en dur : le nom affiché
+// (HUD, dropdown, écran de fin) suit alors la langue courante.
+const ERA_LABEL_KEYS = { before: "modes.era.beforeLabel", after: "modes.era.afterLabel" };
+>>>>>>> 6d64bad (v6)
 
 // ========================
 // Mode de test : Regional Scene (voir "Modes de test" dans CLAUDE.md)
@@ -60,6 +75,22 @@ const ERA_LABELS = { before: "Before Season X", after: "After Season X" };
 // pas d'historique par équipe) est documenté dans CLAUDE.md.
 let regionFilter = "Europe";  // choisi via le <select> de la carte
 
+<<<<<<< HEAD
+=======
+// Correspondance entre le slug d'API (voir players.json / tools/regions.py)
+// et le suffixe de clé i18n. Sert uniquement à traduire le nom affiché du
+// mode courant — le filtre lui-même reste sur la valeur brute.
+const REGION_KEYS = {
+    "Europe": "europe",
+    "North America": "northAmerica",
+    "South America": "southAmerica",
+    "MENA": "mena",
+    "SSA": "ssa",
+    "Asia-Pacific": "asiaPacific",
+    "Oceania": "oceania"
+};
+
+>>>>>>> 6d64bad (v6)
 // ========================
 // Mode de test : LAN Roster (voir "Modes de test" dans CLAUDE.md)
 // ========================
@@ -80,6 +111,7 @@ const SUBDIVISION_NAMES = {
     "gb-nir": "Northern Ireland"
 };
 
+<<<<<<< HEAD
 // Intl.DisplayNames couvre tout l'ISO 3166-1 sans table locale.
 const regionNames = typeof Intl !== "undefined" && Intl.DisplayNames
     ? new Intl.DisplayNames(["en"], { type: "region" })
@@ -94,12 +126,52 @@ const MODES = {
     hard:    { name: "Hard",    flag: false, achievements: true, teamLimit: 0, timed: false },
     extreme: { name: "Extreme", flag: true, achievements: false, teamLimit: 2, timed: false },
     timer:   { name: "Timer",   flag: true, achievements: true, teamLimit: 0, timed: true }
+=======
+// Intl.DisplayNames couvre tout l'ISO 3166-1 sans table locale. La locale
+// est recréée quand la langue change (voir l'écouteur `rlg-lang-changed`
+// en bas de fichier) pour que les noms de pays s'affichent dans la langue
+// choisie plutôt que systématiquement en anglais.
+let regionNames = typeof Intl !== "undefined" && Intl.DisplayNames
+    ? new Intl.DisplayNames([currentLanguage()], { type: "region" })
+    : null;
+
+// ========================
+// Table des modes : centralise les clés i18n du nom affiché et les indices disponibles
+// ========================
+// `nameKey` remplace l'ancien `name` codé en dur : on stocke la clé i18n
+// et le nom final est résolu à l'affichage via t(cfg.nameKey), ce qui
+// suit automatiquement la langue courante (y compris quand elle change
+// en cours de partie via l'event `rlg-lang-changed`).
+const MODES = {
+    classic: { nameKey: "modes.classic.name", flag: true, achievements: true, teamLimit: 0, timed: false },
+    medium:  { nameKey: "modes.medium.name",  flag: true, achievements: false, teamLimit: 0, timed: false },
+    hard:    { nameKey: "modes.hard.name",    flag: false, achievements: true, teamLimit: 0, timed: false },
+    extreme: { nameKey: "modes.extreme.name", flag: true, achievements: false, teamLimit: 2, timed: false },
+    timer:   { nameKey: "modes.timer.name",   flag: true, achievements: true, teamLimit: 0, timed: true }
+>>>>>>> 6d64bad (v6)
 };
 
 function modeConfig() {
     return MODES[selectedMode] || MODES.classic;
 }
 
+<<<<<<< HEAD
+=======
+// Nom affiché du mode courant, dans la langue actuelle.
+function modeName(cfg) {
+    return t((cfg || modeConfig()).nameKey);
+}
+
+// Nom affiché de la session en cours (HUD, écran de fin, verrous d'indices).
+// Priorité au libellé i18n s'il existe, sinon on retombe sur le string figé
+// (nom de LAN par exemple) puis sur le nom traduit du mode courant.
+function resolveDisplayName() {
+    if (currentDisplayNameKey) return t(currentDisplayNameKey);
+    if (currentDisplayName) return currentDisplayName;
+    return modeName();
+}
+
+>>>>>>> 6d64bad (v6)
 function countryName(code) {
     if (!code) return "";
 
@@ -120,10 +192,13 @@ function countryName(code) {
     return code.toUpperCase();
 }
 
+<<<<<<< HEAD
 function plural(count, word) {
     return `${count} ${word}${count === 1 ? "" : "s"}`;
 }
 
+=======
+>>>>>>> 6d64bad (v6)
 // ========================
 // Cache DOM (le script est chargé en fin de <body>, les éléments existent déjà)
 // ========================
@@ -178,6 +253,10 @@ const elRankResetBtn = document.getElementById("rankResetBtn");
 const elRankNextBtn = document.getElementById("rankNextBtn");
 
 const elLanSelect = document.getElementById("lanSelect");
+<<<<<<< HEAD
+=======
+const elRegionSelect = document.getElementById("regionSelect");
+>>>>>>> 6d64bad (v6)
 
 const elNameReveal = document.getElementById("nameReveal");
 const elNameRevealBadge = document.getElementById("nameRevealBadge");
@@ -197,6 +276,149 @@ const elFinalTimeContainer = document.getElementById("finalTimeContainer");
 const elFinalTime = document.getElementById("finalTime");
 
 // ========================
+<<<<<<< HEAD
+=======
+// Routing (persistance dans l'URL, back/forward, deep-links)
+// ========================
+// Hash-based (`#/mode/classic`, `#/mode/lan/rlcs-2026-paris-major`, ...) :
+// c'est le seul format qui fonctionne sur un statique sans toucher au
+// .htaccess — une vraie URL demanderait un rewrite pour renvoyer index.html
+// sur tout chemin, mais Raspberry Pi OS met AllowOverride None par défaut
+// sur /var/www (voir CLAUDE.md). Bonus : ça marche aussi en file:// pour un
+// test rapide.
+//
+// pushState() (et pas `location.hash =`) met à jour l'URL SANS déclencher
+// hashchange, donc la boucle "on navigue -> hashchange -> on renavigue"
+// ne se forme pas. Les écouteurs popstate/hashchange en fin de fichier
+// ne réagissent alors qu'aux vraies navigations utilisateur (back/forward
+// ou modification manuelle de l'URL).
+//
+// Guard `applyingRoute` : quand back/forward déclenche applyRoute(), on
+// appelle startXxx()/goBackToMenu() qui appellent à leur tour pushRoute() ;
+// sans ce guard, on entasserait une entrée d'historique en double à chaque
+// navigation.
+
+// Slug URL <-> valeur brute utilisée par regionFilter (voir players.json).
+// `Europe`/`MENA`/... contiennent des espaces ou de la casse mixte, pas
+// idéal dans une URL ; on stabilise un slug lisible.
+const REGION_SLUGS = {
+    "Europe": "europe",
+    "North America": "north-america",
+    "South America": "south-america",
+    "MENA": "mena",
+    "SSA": "ssa",
+    "Asia-Pacific": "asia-pacific",
+    "Oceania": "oceania"
+};
+const REGION_BY_SLUG = Object.fromEntries(
+    Object.entries(REGION_SLUGS).map(([region, slug]) => [slug, region])
+);
+
+let applyingRoute = false;
+
+function parseHash() {
+    const raw = window.location.hash || "";
+    if (!raw || raw === "#" || raw === "#/") return null;
+
+    // Retire le "#" et l'éventuel "/" qui suit, puis découpe.
+    const path = raw.replace(/^#\/?/, "");
+    const parts = path.split("/").filter(Boolean);
+    if (parts.length < 2 || parts[0] !== "mode") return null;
+
+    return { mode: parts[1], param: parts[2] || null };
+}
+
+function buildHash(mode, param) {
+    if (!mode) return "";
+    return param ? `#/mode/${mode}/${param}` : `#/mode/${mode}`;
+}
+
+function pushRoute(mode, param) {
+    if (applyingRoute) return;
+
+    const target = buildHash(mode, param);
+    const current = window.location.hash;
+
+    // Rien à changer : évite d'entasser des entrées identiques quand on
+    // rejoue le même mode (Play Again ne passe pas ici, mais un clic
+    // répété sur la même carte du hub, si).
+    if (target === current) return;
+    if (!target && (!current || current === "#" || current === "#/")) return;
+
+    if (target) {
+        window.history.pushState(null, "", target);
+    } else {
+        // Enlever le hash proprement, sans laisser un "#" nu dans l'URL
+        window.history.pushState(null, "", window.location.pathname + window.location.search);
+    }
+}
+
+// Appelée au chargement (après les fetch) et sur back/forward/hashchange.
+// Silencieuse si le hash est vide (retour au hub) ou si le paramètre
+// (LAN, région, période) n'existe pas dans les données courantes.
+function applyRoute() {
+    const route = parseHash();
+
+    applyingRoute = true;
+    try {
+        if (!route) {
+            // Retour au hub si un écran de jeu ou l'écran de fin est affiché
+            if (elGame.classList.contains("active")
+                || elRankGame.classList.contains("active")
+                || elEndScreen.classList.contains("show")) {
+                goBackToMenu();
+            }
+            return;
+        }
+
+        switch (route.mode) {
+            case "classic":
+            case "medium":
+            case "hard":
+            case "extreme":
+            case "timer":
+                startMode(route.mode);
+                break;
+            case "earnings":
+                startEarningsMode();
+                break;
+            case "quickten":
+                startQuickTenMode();
+                break;
+            case "era":
+                if (route.param === "before" || route.param === "after") {
+                    applyEraPeriod(route.param);
+                    startEraMode();
+                }
+                break;
+            case "region":
+                if (route.param && REGION_BY_SLUG[route.param]) {
+                    regionFilter = REGION_BY_SLUG[route.param];
+                    if (elRegionSelect) elRegionSelect.value = regionFilter;
+                    startRegionMode();
+                }
+                break;
+            case "lan":
+                // lans.some() renvoie false tant que lans.json n'a pas chargé —
+                // on retombe alors silencieusement au hub, applyRoute sera
+                // rappelée depuis le .then() du fetch quand la LAN existera.
+                if (route.param && lans.some(l => l.id === route.param)) {
+                    lanFilter = route.param;
+                    if (elLanSelect) elLanSelect.value = lanFilter;
+                    startLanMode();
+                }
+                break;
+        }
+    } finally {
+        applyingRoute = false;
+    }
+}
+
+window.addEventListener("popstate", applyRoute);
+window.addEventListener("hashchange", applyRoute);
+
+// ========================
+>>>>>>> 6d64bad (v6)
 // Chargement des données
 // ========================
 function setHubStatus(html, isError) {
@@ -211,7 +433,11 @@ function setHubStatus(html, isError) {
     elHubStatus.hidden = false;
 }
 
+<<<<<<< HEAD
 setHubStatus("Loading players…", false);
+=======
+setHubStatus(t("status.loading"), false);
+>>>>>>> 6d64bad (v6)
 
 Promise.all([
     fetch("players.json").then(r => r.json()),
@@ -227,16 +453,29 @@ Promise.all([
     populateLanSelect();
 
     setHubStatus(null);
+<<<<<<< HEAD
+=======
+
+    // Deep-link éventuel : si l'utilisateur a ouvert `#/mode/...` directement,
+    // on entre dans le mode maintenant que les données sont prêtes. Sinon
+    // (hash vide), applyRoute() ne fait rien puisque la vue hub est déjà celle
+    // affichée par défaut.
+    applyRoute();
+>>>>>>> 6d64bad (v6)
 }).catch(() => {
     // Cas le plus courant : la page est ouverte en file://, où les navigateurs
     // refusent de fetcher les JSON. Sans message, les boutons de mode
     // sembleraient simplement morts.
+<<<<<<< HEAD
     setHubStatus(
         "Could not load the player data. Serve this folder over HTTP instead of " +
         "opening <code>index.html</code> directly — browsers block " +
         "<code>file://</code> data requests. For example: <code>npx serve .</code>",
         true
     );
+=======
+    setHubStatus(t("status.loadError"), true);
+>>>>>>> 6d64bad (v6)
 });
 
 function normalize(str) {
@@ -275,7 +514,11 @@ function requirePlayers() {
     setHubStatus(
         elHubStatus.classList.contains("error")
             ? elHubStatus.innerHTML
+<<<<<<< HEAD
             : "Still loading the player data — try again in a second.",
+=======
+            : t("status.stillLoading"),
+>>>>>>> 6d64bad (v6)
         elHubStatus.classList.contains("error")
     );
     return false;
@@ -313,6 +556,10 @@ function enterGameScreen(targetEl, setup) {
 
 function startMode(mode) {
     if (!requirePlayers()) return;
+<<<<<<< HEAD
+=======
+    pushRoute(mode);
+>>>>>>> 6d64bad (v6)
     enterGameScreen(elGame, () => setupGame(mode));
 }
 
@@ -334,10 +581,34 @@ function setupGame(mode, options) {
     currentPool = options.pool ? [...options.pool] : [...players];
     remainingPlayers = [...currentPool];
     sessionPlayerCount = currentPool.length;
+<<<<<<< HEAD
     currentDisplayName = options.displayName || cfg.name;
 
     // ===== HUD =====
     elHudModeName.textContent = currentDisplayName;
+=======
+
+    // `displayNameKey` : clé i18n pour un nom qui doit suivre la langue
+    // (modes classiques, Career Era, Regional Scene, Quick Ten, Earnings
+    // Rank — tout ce dont le libellé est dans I18N).
+    // `displayName` : string figée, réservée aux libellés qui viennent des
+    // données (nom d'une LAN par exemple) et qui n'ont pas de traduction.
+    // Priorité explicite : sans ça, une LAN ne fournissant que `displayName`
+    // se ferait écraser par le fallback `cfg.nameKey` = "modes.classic.name".
+    if (options.displayNameKey) {
+        currentDisplayNameKey = options.displayNameKey;
+        currentDisplayName = "";
+    } else if (options.displayName) {
+        currentDisplayNameKey = "";
+        currentDisplayName = options.displayName;
+    } else {
+        currentDisplayNameKey = cfg.nameKey;
+        currentDisplayName = "";
+    }
+
+    // ===== HUD =====
+    elHudModeName.textContent = resolveDisplayName();
+>>>>>>> 6d64bad (v6)
 
     correctCount = 0;
     totalCount = 0;
@@ -441,7 +712,14 @@ function startGame() {
     }
 
     elTeamsCapNote.hidden = !cfg.teamLimit;
+<<<<<<< HEAD
     elChipTeams.textContent = plural(teamsToShow.length, "team");
+=======
+    if (cfg.teamLimit) {
+        elTeamsCapNote.textContent = t("panel.cappedAt", { n: cfg.teamLimit });
+    }
+    elChipTeams.textContent = tPlural("chips.team", teamsToShow.length);
+>>>>>>> 6d64bad (v6)
 
     // Display — les tuiles portent un numéro ordinal chronologique (1 = plus
     // ancienne équipe, N = plus récente). Cf. le hint « oldest first » sous
@@ -665,6 +943,11 @@ function resetPhotoSlot() {
 // ========================
 function goBackToMenu() {
 
+<<<<<<< HEAD
+=======
+    pushRoute(null);
+
+>>>>>>> 6d64bad (v6)
     stopTimer();
 
     closeModeMenu();
@@ -689,13 +972,27 @@ function fillInfoCard(player) {
 
     const cfg = modeConfig();
 
+<<<<<<< HEAD
+=======
+    const modeLabel = modeName(cfg);
+
+>>>>>>> 6d64bad (v6)
     // NATIONALITY
     // HARD MODE = NO FLAG
     if (!cfg.flag) {
 
         elInfoNationality.hidden = true;
         elFlagMasked.hidden = false;
+<<<<<<< HEAD
         elFlagMasked.querySelector(".masked-mode").textContent = cfg.name;
+=======
+        // Le message "Hidden in {mode} mode" est réécrit d'un bloc (au lieu
+        // du <span class="masked-mode"> remplacé auparavant) : dans certaines
+        // langues, le nom du mode ne se place pas au milieu de la phrase, il
+        // faut donc reconstruire la ligne entière depuis la clé i18n.
+        elFlagMasked.querySelector(".masked-text").textContent =
+            t("panel.hiddenIn", { mode: modeLabel });
+>>>>>>> 6d64bad (v6)
 
     } else {
 
@@ -709,7 +1006,11 @@ function fillInfoCard(player) {
 
             elInfoFlag.onload = null;
             elInfoFlag.onerror = null;
+<<<<<<< HEAD
             elInfoFlag.alt = `${name} flag`;
+=======
+            elInfoFlag.alt = t("misc.flagAlt", { country: name });
+>>>>>>> 6d64bad (v6)
             elInfoFlag.title = name;
 
             // SVG endpoint supports both ISO 3166-1 (fr, us, ...) and ISO 3166-2 subdivisions (gb-eng, gb-sct, gb-wls)
@@ -724,7 +1025,11 @@ function fillInfoCard(player) {
             elInfoCountryName.textContent = name;
         } else {
             elInfoFlag.style.display = "none";
+<<<<<<< HEAD
             elInfoCountryName.textContent = "Unknown";
+=======
+            elInfoCountryName.textContent = t("misc.unknown");
+>>>>>>> 6d64bad (v6)
         }
     }
 
@@ -737,9 +1042,16 @@ function fillInfoCard(player) {
 
         elInfoAchievements.hidden = true;
         elAchLocked.hidden = false;
+<<<<<<< HEAD
         elAchLocked.querySelector(".locked-mode").textContent = cfg.name;
 
         elChipAchievements.textContent = "Achievements hidden";
+=======
+        elAchLocked.querySelector(".locked-text").textContent =
+            t("panel.achievementsLocked", { mode: modeLabel });
+
+        elChipAchievements.textContent = t("chips.achievementsHidden");
+>>>>>>> 6d64bad (v6)
 
     } else {
 
@@ -754,16 +1066,27 @@ function fillInfoCard(player) {
                 elInfoAchievements.appendChild(li);
             });
 
+<<<<<<< HEAD
             elChipAchievements.textContent = plural(achievements.length, "title");
+=======
+            elChipAchievements.textContent = tPlural("chips.title", achievements.length);
+>>>>>>> 6d64bad (v6)
 
         } else {
 
             const li = document.createElement("li");
             li.className = "empty";
+<<<<<<< HEAD
             li.textContent = "No S-tier title";
             elInfoAchievements.appendChild(li);
 
             elChipAchievements.textContent = "No title";
+=======
+            li.textContent = t("list.noTitle");
+            elInfoAchievements.appendChild(li);
+
+            elChipAchievements.textContent = t("chips.noTitle");
+>>>>>>> 6d64bad (v6)
         }
     }
 }
@@ -789,7 +1112,11 @@ function resetInfoCard() {
 // ========================
 function showNameReveal(kind) {
     elNameReveal.className = `name-reveal ${kind}`;
+<<<<<<< HEAD
     elNameRevealBadge.textContent = kind === "correct" ? "Correct answer" : "The answer was";
+=======
+    elNameRevealBadge.textContent = kind === "correct" ? t("panel.answer.correct") : t("panel.answer.was");
+>>>>>>> 6d64bad (v6)
     elNameRevealName.textContent = currentPlayer.name;
     elNameReveal.hidden = false;
 }
@@ -809,6 +1136,7 @@ function renderClueList() {
     const cfg = modeConfig();
 
     const rows = [
+<<<<<<< HEAD
         { label: "Flag", state: cfg.flag ? "on" : "off" },
         { label: "Titles", state: cfg.achievements ? "on" : "off" },
         {
@@ -816,6 +1144,15 @@ function renderClueList() {
             state: cfg.teamLimit ? "partial" : "on"
         },
         { label: "Photo · reveal", state: "partial" }
+=======
+        { label: t("clues.flag"), state: cfg.flag ? "on" : "off" },
+        { label: t("clues.titles"), state: cfg.achievements ? "on" : "off" },
+        {
+            label: cfg.teamLimit ? t("clues.nTeams", { n: cfg.teamLimit }) : t("clues.allTeams"),
+            state: cfg.teamLimit ? "partial" : "on"
+        },
+        { label: t("clues.photo"), state: "partial" }
+>>>>>>> 6d64bad (v6)
     ];
 
     elClueList.innerHTML = "";
@@ -867,7 +1204,11 @@ function updateScore() {
 function showEndScreen() {
 
     const cfg = modeConfig();
+<<<<<<< HEAD
     const displayName = currentDisplayName || cfg.name;
+=======
+    const displayName = resolveDisplayName();
+>>>>>>> 6d64bad (v6)
 
     // Le titre et l'accroche reflètent le score réel : l'ancien texte fixe
     // ("Congratulations! You found every player") s'affichait même à 0/10,
@@ -875,6 +1216,7 @@ function showEndScreen() {
     // atteint cet écran dès que le pool est épuisé, pas seulement en cas de
     // sans-faute (skip/mauvaise réponse font aussi avancer la manche).
     if (totalCount > 0 && correctCount === totalCount) {
+<<<<<<< HEAD
         elEndTitle.textContent = "Congratulations!";
         elEndLede.textContent = `You found every player in ${displayName} mode.`;
     } else if (correctCount === 0) {
@@ -883,6 +1225,16 @@ function showEndScreen() {
     } else {
         elEndTitle.textContent = "Round Complete";
         elEndLede.textContent = `You found ${correctCount} of ${totalCount} players in ${displayName} mode.`;
+=======
+        elEndTitle.textContent = t("end.congrats");
+        elEndLede.textContent = t("end.foundAll", { mode: displayName });
+    } else if (correctCount === 0) {
+        elEndTitle.textContent = t("end.complete");
+        elEndLede.textContent = t("end.foundNone", { mode: displayName });
+    } else {
+        elEndTitle.textContent = t("end.complete");
+        elEndLede.textContent = t("end.foundSome", { n: correctCount, m: totalCount, mode: displayName });
+>>>>>>> 6d64bad (v6)
     }
 
     elFinalScore.textContent = `${correctCount}/${totalCount}`;
@@ -1003,6 +1355,10 @@ function buildModeMenuContents(menuEl) {
         item.type = "button";
         item.className = `mode-menu-item mode-menu-${key}`;
         item.dataset.mode = key;
+<<<<<<< HEAD
+=======
+        item.dataset.i18nLabel = cfg.nameKey;
+>>>>>>> 6d64bad (v6)
         item.setAttribute("role", "menuitem");
 
         const dot = document.createElement("span");
@@ -1010,7 +1366,12 @@ function buildModeMenuContents(menuEl) {
         item.appendChild(dot);
 
         const label = document.createElement("span");
+<<<<<<< HEAD
         label.textContent = cfg.name;
+=======
+        label.className = "mode-menu-label";
+        label.textContent = t(cfg.nameKey);
+>>>>>>> 6d64bad (v6)
         item.appendChild(label);
 
         item.addEventListener("click", (event) => {
@@ -1028,20 +1389,33 @@ function buildModeMenuContents(menuEl) {
     divider.setAttribute("role", "separator");
     menuEl.appendChild(divider);
 
+<<<<<<< HEAD
     appendModeMenuItem(menuEl, "earnings", "mode-menu-earnings", "Earnings Rank", () => {
         startEarningsMode();
     });
 
     appendModeMenuItem(menuEl, "era-before", "mode-menu-era", ERA_LABELS.before, () => {
+=======
+    appendModeMenuItem(menuEl, "earnings", "mode-menu-earnings", "modes.earnings.name", () => {
+        startEarningsMode();
+    });
+
+    appendModeMenuItem(menuEl, "era-before", "mode-menu-era", "modes.era.beforeLabel", () => {
+>>>>>>> 6d64bad (v6)
         applyEraPeriod("before");
         startEraMode();
     });
 
+<<<<<<< HEAD
     appendModeMenuItem(menuEl, "era-after", "mode-menu-era", ERA_LABELS.after, () => {
+=======
+    appendModeMenuItem(menuEl, "era-after", "mode-menu-era", "modes.era.afterLabel", () => {
+>>>>>>> 6d64bad (v6)
         applyEraPeriod("after");
         startEraMode();
     });
 
+<<<<<<< HEAD
     appendModeMenuItem(menuEl, "region", "mode-menu-region", "Regional Scene", () => {
         startRegionMode();
     });
@@ -1051,18 +1425,39 @@ function buildModeMenuContents(menuEl) {
     });
 
     appendModeMenuItem(menuEl, "lan", "mode-menu-lan", "LAN Roster", () => {
+=======
+    appendModeMenuItem(menuEl, "region", "mode-menu-region", "modes.region.name", () => {
+        startRegionMode();
+    });
+
+    appendModeMenuItem(menuEl, "quickten", "mode-menu-quickten", "modes.quickten.name", () => {
+        startQuickTenMode();
+    });
+
+    appendModeMenuItem(menuEl, "lan", "mode-menu-lan", "modes.lan.name", () => {
+>>>>>>> 6d64bad (v6)
         startLanMode();
     });
 }
 
 // Un item de mode de test dans le dropdown : même structure que les entrées
 // classiques (pastille + libellé), mais sans passer par MODES — voir
+<<<<<<< HEAD
 // "Modes de test" dans CLAUDE.md.
 function appendModeMenuItem(menuEl, modeKey, extraClass, label, onSelect) {
+=======
+// "Modes de test" dans CLAUDE.md. `labelKey` est une clé i18n : le libellé
+// est résolu à la construction ET retraduit sur `rlg-lang-changed`.
+function appendModeMenuItem(menuEl, modeKey, extraClass, labelKey, onSelect) {
+>>>>>>> 6d64bad (v6)
     const item = document.createElement("button");
     item.type = "button";
     item.className = `mode-menu-item ${extraClass}`;
     item.dataset.mode = modeKey;
+<<<<<<< HEAD
+=======
+    item.dataset.i18nLabel = labelKey;
+>>>>>>> 6d64bad (v6)
     item.setAttribute("role", "menuitem");
 
     const dot = document.createElement("span");
@@ -1070,7 +1465,12 @@ function appendModeMenuItem(menuEl, modeKey, extraClass, label, onSelect) {
     item.appendChild(dot);
 
     const text = document.createElement("span");
+<<<<<<< HEAD
     text.textContent = label;
+=======
+    text.className = "mode-menu-label";
+    text.textContent = t(labelKey);
+>>>>>>> 6d64bad (v6)
     item.appendChild(text);
 
     item.addEventListener("click", (event) => {
@@ -1149,7 +1549,14 @@ function setEarningsCount(count, event) {
 }
 
 function formatEarnings(value) {
+<<<<<<< HEAD
     return new Intl.NumberFormat("en-US", {
+=======
+    // Locale = langue courante : les séparateurs de milliers et la place du
+    // symbole $ suivent la convention locale (ex. "1 234 $" en fr, "$1,234"
+    // en en). La devise reste USD, source Liquipedia.
+    return new Intl.NumberFormat(currentLanguage(), {
+>>>>>>> 6d64bad (v6)
         style: "currency",
         currency: "USD",
         maximumFractionDigits: 0
@@ -1161,6 +1568,7 @@ function startEarningsMode() {
     if (!requirePlayers()) return;
 
     if (eligibleForEarnings().length < earningsCount) {
+<<<<<<< HEAD
         setHubStatus(
             "Not enough players have earnings data yet — regenerate players.json " +
             "with the earnings field (see tools/build_data.py) to play this mode.",
@@ -1169,6 +1577,14 @@ function startEarningsMode() {
         return;
     }
 
+=======
+        setHubStatus(t("status.notEnoughEarnings"), true);
+        return;
+    }
+
+    pushRoute("earnings");
+
+>>>>>>> 6d64bad (v6)
     // stopTimer() est nécessaire ici (contrairement aux autres modes de test,
     // qui passent par setupGame() et l'appellent déjà) : on peut rejoindre
     // Earnings Rank — qui n'a pas de chrono — depuis le mode Timer en cours.
@@ -1195,7 +1611,11 @@ function startRankRound() {
 
     rankPicks = [];
 
+<<<<<<< HEAD
     elRankRoundIndex.textContent = `Round ${rankRoundsPlayed + 1}`;
+=======
+    elRankRoundIndex.textContent = t("rank.roundLabel", { n: rankRoundsPlayed + 1 });
+>>>>>>> 6d64bad (v6)
     elRankResetBtn.disabled = false;
     elRankNextBtn.classList.remove("show");
 
@@ -1360,18 +1780,29 @@ function startEraMode() {
     const pool = eligibleForEra(eraPeriod);
 
     if (!pool.length) {
+<<<<<<< HEAD
         setHubStatus(
             "No players found for this period yet — regenerate players.json with " +
             "firstSTierDate/lastSTierDate (see tools/build_data.py) to play this mode.",
             true
         );
+=======
+        setHubStatus(t("status.noPeriodPlayers"), true);
+>>>>>>> 6d64bad (v6)
         return;
     }
 
     const key = `era-${eraPeriod}`;
+<<<<<<< HEAD
     const displayName = ERA_LABELS[eraPeriod];
 
     enterGameScreen(elGame, () => setupGame(key, { pool, displayName }));
+=======
+    const displayNameKey = ERA_LABEL_KEYS[eraPeriod];
+
+    pushRoute("era", eraPeriod);
+    enterGameScreen(elGame, () => setupGame(key, { pool, displayNameKey }));
+>>>>>>> 6d64bad (v6)
 }
 
 // ========================
@@ -1400,6 +1831,7 @@ function startRegionMode() {
     const pool = eligibleForRegion(regionFilter);
 
     if (!pool.length) {
+<<<<<<< HEAD
         setHubStatus(
             "No players found for this region yet — regenerate players.json with " +
             "the region field (see tools/build_data.py) to play this mode.",
@@ -1409,6 +1841,19 @@ function startRegionMode() {
     }
 
     enterGameScreen(elGame, () => setupGame("region", { pool, displayName: regionFilter }));
+=======
+        setHubStatus(t("status.noRegionPlayers"), true);
+        return;
+    }
+
+    // Le displayName utilise la clé i18n de la région choisie (Europe/MENA/...) :
+    // le nom dans le HUD et l'écran de fin suit la langue courante, sans qu'on
+    // ait à dupliquer le mapping region -> clé ici (Object.keys de la table i18n
+    // n'irait pas plus vite qu'un simple slug -> camelCase).
+    const displayNameKey = `regions.${REGION_KEYS[regionFilter] || "europe"}`;
+    pushRoute("region", REGION_SLUGS[regionFilter]);
+    enterGameScreen(elGame, () => setupGame("region", { pool, displayNameKey }));
+>>>>>>> 6d64bad (v6)
 }
 
 // ========================
@@ -1443,10 +1888,18 @@ function startQuickTenMode() {
     const size = Math.min(QUICK_TEN_SIZE, players.length);
     const opts = {
         pool: drawRandomPool(size),
+<<<<<<< HEAD
         displayName: "Quick Ten",
         resample: () => drawRandomPool(size),
     };
 
+=======
+        displayNameKey: "modes.quickten.name",
+        resample: () => drawRandomPool(size),
+    };
+
+    pushRoute("quickten");
+>>>>>>> 6d64bad (v6)
     enterGameScreen(elGame, () => setupGame("quickten", opts));
 }
 
@@ -1489,13 +1942,18 @@ function startLanMode() {
     if (!requirePlayers()) return;
 
     if (!lanFilter) {
+<<<<<<< HEAD
         setHubStatus("Still loading LAN data — try again in a second.", false);
+=======
+        setHubStatus(t("status.loadingLan"), false);
+>>>>>>> 6d64bad (v6)
         return;
     }
 
     const pool = eligibleForLan(lanFilter);
 
     if (!pool.length) {
+<<<<<<< HEAD
         setHubStatus(
             "No players found for this LAN yet — regenerate players.json/lans.json " +
             "(see tools/build_data.py) to play this mode.",
@@ -1509,3 +1967,171 @@ function startLanMode() {
 
     enterGameScreen(elGame, () => setupGame("lan", { pool, displayName }));
 }
+=======
+        setHubStatus(t("status.noLanPlayers"), true);
+        return;
+    }
+
+    // Nom de LAN : vient des données (lans.json), pas de traduction —
+    // on utilise displayName plutôt que displayNameKey. Le repli "LAN
+    // Roster" (quand la LAN disparaît des données mais reste sélectionnée)
+    // reste, lui, traduit via displayNameKey.
+    const lan = lans.find(l => l.id === lanFilter);
+    pushRoute("lan", lanFilter);
+    if (lan) {
+        enterGameScreen(elGame, () => setupGame("lan", { pool, displayName: lan.name }));
+    } else {
+        enterGameScreen(elGame, () => setupGame("lan", { pool, displayNameKey: "modes.lan.name" }));
+    }
+}
+
+// ========================
+// Sélecteur de langue (hub-top)
+// ========================
+// Le bouton et son menu vivent dans le hub uniquement — en cours de partie,
+// le joueur revient au menu pour changer. C'est plus discret que d'ajouter
+// une troisième pilule à un HUD déjà chargé, et la langue est un choix
+// global rare, pas une action de manche.
+
+const elLangBtn = document.getElementById("langBtn");
+const elLangMenu = document.getElementById("langMenu");
+const elLangCode = document.getElementById("langCode");
+
+function buildLangMenu() {
+    elLangMenu.innerHTML = "";
+
+    LANGUAGES.forEach(lang => {
+        const item = document.createElement("button");
+        item.type = "button";
+        item.className = "lang-menu-item";
+        item.dataset.lang = lang.code;
+        item.setAttribute("role", "menuitem");
+
+        const label = document.createElement("span");
+        label.textContent = lang.nativeLabel;
+        item.appendChild(label);
+
+        const code = document.createElement("span");
+        code.className = "lang-item-code";
+        code.textContent = lang.code.toUpperCase();
+        item.appendChild(code);
+
+        item.addEventListener("click", (event) => {
+            event.stopPropagation();
+            setLanguage(lang.code);
+            closeLangMenu();
+        });
+
+        elLangMenu.appendChild(item);
+    });
+}
+
+function toggleLangMenu() {
+    if (elLangMenu.hidden) openLangMenu();
+    else closeLangMenu();
+}
+
+function openLangMenu() {
+    elLangMenu.querySelectorAll(".lang-menu-item").forEach(el => {
+        el.classList.toggle("active", el.dataset.lang === currentLanguage());
+    });
+    elLangMenu.hidden = false;
+    elLangBtn.setAttribute("aria-expanded", "true");
+}
+
+function closeLangMenu() {
+    if (elLangMenu.hidden) return;
+    elLangMenu.hidden = true;
+    elLangBtn.setAttribute("aria-expanded", "false");
+}
+
+elLangBtn.addEventListener("click", (event) => {
+    event.stopPropagation();
+    toggleLangMenu();
+});
+elLangMenu.addEventListener("click", (event) => event.stopPropagation());
+
+// Le click "ailleurs" du document (voir plus haut, section "clic ailleurs")
+// referme déjà les dropdowns de modes ; on ajoute la fermeture du langMenu
+// à la volée sans dupliquer le listener existant.
+document.addEventListener("click", closeLangMenu);
+
+function updateLangButton() {
+    elLangCode.textContent = currentLanguage().toUpperCase();
+}
+
+buildLangMenu();
+updateLangButton();
+
+// ========================
+// Rafraîchissement au changement de langue
+// ========================
+// applyStaticTranslations() (dans i18n.js) s'occupe de tout ce qui porte
+// un data-i18n dans le HTML. Ici on reconstruit les parties dynamiques :
+// items de menu construits en JS, HUD du mode courant, fiche joueur en
+// cours d'affichage, options de select à texte calculé, écran de fin s'il
+// est visible. Sans ce hook, changer la langue ne mettrait à jour que la
+// moitié de l'écran.
+document.addEventListener("rlg-lang-changed", () => {
+
+    updateLangButton();
+
+    // Locale pour countryName() : recréer Intl.DisplayNames pour que les
+    // noms de pays servis par le repli suivent la nouvelle langue.
+    if (typeof Intl !== "undefined" && Intl.DisplayNames) {
+        regionNames = new Intl.DisplayNames([currentLanguage()], { type: "region" });
+    }
+
+    // Items des dropdowns de modes : reconstruire les libellés depuis leurs
+    // clés i18n (stockées en dataset.i18nLabel lors de la construction).
+    document.querySelectorAll(".mode-menu-item").forEach(item => {
+        const key = item.dataset.i18nLabel;
+        if (!key) return;
+        const label = item.querySelector(".mode-menu-label");
+        if (label) label.textContent = t(key);
+    });
+
+    // Options du LAN select : le format "{name} — {city}" ne dépend pas de la
+    // langue (noms propres), donc rien à faire ici pour lan. En revanche,
+    // les options du region select sont traduites via data-i18n : déjà pris
+    // en charge par applyStaticTranslations() dans i18n.js.
+
+    // HUD du mode courant
+    elHudModeName.textContent = resolveDisplayName();
+
+    // Fiche joueur en cours (si une partie est active) — le plus simple est
+    // de rejouer fillInfoCard() sur le joueur courant, ce qui recalcule les
+    // blocs "Hidden in ... mode" et "Achievements unavailable in ... mode"
+    // avec le mode traduit.
+    if (currentPlayer && elGame.classList.contains("active")) {
+        fillInfoCard(currentPlayer);
+        renderClueList();
+
+        // Cap note : "Capped at N" dépend du mode courant, pas du joueur.
+        const cfg = modeConfig();
+        if (cfg.teamLimit) {
+            elTeamsCapNote.textContent = t("panel.cappedAt", { n: cfg.teamLimit });
+        }
+
+        // Chips : réécrites via tPlural(), à rejouer si la partie est en cours.
+        const teamsShown = elTeams.querySelectorAll(".team-tile").length;
+        elChipTeams.textContent = tPlural("chips.team", teamsShown);
+    }
+
+    // Name reveal si visible : le badge dépend de la langue.
+    if (!elNameReveal.hidden) {
+        const isCorrect = elNameReveal.classList.contains("correct");
+        elNameRevealBadge.textContent = isCorrect ? t("panel.answer.correct") : t("panel.answer.was");
+    }
+
+    // Écran de fin si affiché
+    if (elEndScreen.classList.contains("show")) {
+        showEndScreen();
+    }
+
+    // Rank round label si en cours
+    if (elRankGame.classList.contains("active") && rankRoundsPlayed >= 0 && !rankResolved) {
+        elRankRoundIndex.textContent = t("rank.roundLabel", { n: rankRoundsPlayed + 1 });
+    }
+});
+>>>>>>> 6d64bad (v6)

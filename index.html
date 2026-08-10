@@ -1,5 +1,11 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
+=======
+<!-- `lang`/`dir` sont réécrits par i18n.js dès son chargement selon la
+     préférence sauvegardée en localStorage (défaut : anglais LTR). -->
+<html lang="en" dir="ltr" data-i18n-title="meta.title">
+>>>>>>> 6d64bad (v6)
 <head>
     <meta charset="UTF-8">
     <!-- CSP en défense en profondeur : site 100% statique, donc pas de secret ni
@@ -69,7 +75,29 @@
     <header class="hub-top">
         <div class="brand">
             <div class="brand-mark" aria-hidden="true">R</div>
+<<<<<<< HEAD
             <span class="brand-label">Rocket League Guessing Game</span>
+=======
+            <span class="brand-label" data-i18n="hub.brand.label">Rocket League Guessing Game</span>
+        </div>
+
+        <!-- Sélecteur de langue. Le libellé courant (« EN », « FR »...) est
+             écrit par script.js à l'ouverture et au changement, en même
+             temps que les items du menu (peuplés depuis LANGUAGES dans
+             i18n.js — pas de doublon codé en dur ici). -->
+        <div class="lang-wrap">
+            <button type="button" class="hud-pill lang-btn" id="langBtn"
+                    aria-haspopup="menu" aria-expanded="false"
+                    data-i18n-title="lang.title" data-i18n-aria-label="lang.title">
+                <svg class="lang-globe" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="9"/>
+                    <path d="M3 12h18M12 3c2.5 2.5 4 6 4 9s-1.5 6.5-4 9c-2.5-2.5-4-6-4-9s1.5-6.5 4-9z"/>
+                </svg>
+                <span class="lang-code" id="langCode">EN</span>
+                <svg class="hud-caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5"/></svg>
+            </button>
+            <div class="lang-menu" id="langMenu" role="menu" hidden></div>
+>>>>>>> 6d64bad (v6)
         </div>
     </header>
 
@@ -80,14 +108,22 @@
             <span class="hero-rl">RL</span>
             <span class="hero-guessr">GUESSR</span>
         </h1>
+<<<<<<< HEAD
         <p class="hero-lede">
+=======
+        <p class="hero-lede" data-i18n="hub.hero.lede">
+>>>>>>> 6d64bad (v6)
             Guess Rocket League pro players from their clues: nationality, S-Tier honours
             and the teams they joined. Five modes, from the most forgiving to the most merciless.
         </p>
     </div>
 
     <div class="section-head">
+<<<<<<< HEAD
         <h2>Choose your mode</h2>
+=======
+        <h2 data-i18n="hub.section.modes">Choose your mode</h2>
+>>>>>>> 6d64bad (v6)
         <div class="section-rule"></div>
     </div>
 
@@ -99,10 +135,17 @@
                 <span class="mode-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.4"/><path d="M12 1.8v3.4M12 18.8v3.4M1.8 12h3.4M18.8 12h3.4"/></svg>
                 </span>
+<<<<<<< HEAD
                 <span class="mode-tag">All clues</span>
             </span>
             <span class="mode-name">Classic</span>
             <span class="mode-desc">The standard mode. Flag, photo, S-tier achievements and every team are shown.</span>
+=======
+                <span class="mode-tag" data-i18n="modes.classic.tag">All clues</span>
+            </span>
+            <span class="mode-name" data-i18n="modes.classic.name">Classic</span>
+            <span class="mode-desc" data-i18n="modes.classic.desc">The standard mode. Flag, photo, S-tier achievements and every team are shown.</span>
+>>>>>>> 6d64bad (v6)
         </button>
 
         <button class="mode-card mode-medium" onclick="startMode('medium')">
@@ -111,10 +154,17 @@
                 <span class="mode-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24"><path d="M7.5 4h9v5.5a4.5 4.5 0 0 1-9 0z"/><path d="M7.5 5.5H4.8v1.7a3.4 3.4 0 0 0 3 3.3M16.5 5.5h2.7v1.7a3.4 3.4 0 0 1-3 3.3"/><path d="M12 14v3.6M8.8 20h6.4"/><path d="M3.6 3.6 20.4 20.4"/></svg>
                 </span>
+<<<<<<< HEAD
                 <span class="mode-tag">No achievements</span>
             </span>
             <span class="mode-name">Medium</span>
             <span class="mode-desc">S-tier achievements are hidden. The flag, the photo and the teams remain.</span>
+=======
+                <span class="mode-tag" data-i18n="modes.medium.tag">No achievements</span>
+            </span>
+            <span class="mode-name" data-i18n="modes.medium.name">Medium</span>
+            <span class="mode-desc" data-i18n="modes.medium.desc">S-tier achievements are hidden. The flag, the photo and the teams remain.</span>
+>>>>>>> 6d64bad (v6)
         </button>
 
         <button class="mode-card mode-hard" onclick="startMode('hard')">
@@ -123,10 +173,17 @@
                 <span class="mode-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 5.2h12.5l-2.4 3.9 2.4 3.9H5"/><path d="M3.6 3.6 20.4 20.4"/></svg>
                 </span>
+<<<<<<< HEAD
                 <span class="mode-tag">No flag</span>
             </span>
             <span class="mode-name">Hard</span>
             <span class="mode-desc">Nationality is hidden. You play on achievements and teams alone.</span>
+=======
+                <span class="mode-tag" data-i18n="modes.hard.tag">No flag</span>
+            </span>
+            <span class="mode-name" data-i18n="modes.hard.name">Hard</span>
+            <span class="mode-desc" data-i18n="modes.hard.desc">Nationality is hidden. You play on achievements and teams alone.</span>
+>>>>>>> 6d64bad (v6)
         </button>
 
         <button class="mode-card mode-extreme" onclick="startMode('extreme')">
@@ -135,10 +192,17 @@
                 <span class="mode-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24"><path d="M12 2.6 5 6v5.6c0 4.4 2.9 8.1 7 9.8 4.1-1.7 7-5.4 7-9.8V6z"/><path d="M12 8.4v4.2M12 16.1h.01"/></svg>
                 </span>
+<<<<<<< HEAD
                 <span class="mode-tag">2 teams max</span>
             </span>
             <span class="mode-name">Extreme</span>
             <span class="mode-desc">Two teams shown at most, and no achievements. For veterans only.</span>
+=======
+                <span class="mode-tag" data-i18n="modes.extreme.tag">2 teams max</span>
+            </span>
+            <span class="mode-name" data-i18n="modes.extreme.name">Extreme</span>
+            <span class="mode-desc" data-i18n="modes.extreme.desc">Two teams shown at most, and no achievements. For veterans only.</span>
+>>>>>>> 6d64bad (v6)
         </button>
 
         <button class="mode-card mode-timer" onclick="startMode('timer')">
@@ -148,19 +212,33 @@
                 <span class="mode-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24"><circle cx="12" cy="13.2" r="8"/><path d="M12 8.6v4.6l3 2"/><path d="M9.4 2.4h5.2"/></svg>
                 </span>
+<<<<<<< HEAD
                 <span class="mode-tag">Against the clock</span>
             </span>
             <span class="mode-name">Timer</span>
             <span class="mode-desc">All the clues, but the clock is running. Clear the roster as fast as you can.</span>
+=======
+                <span class="mode-tag" data-i18n="modes.timer.tag">Against the clock</span>
+            </span>
+            <span class="mode-name" data-i18n="modes.timer.name">Timer</span>
+            <span class="mode-desc" data-i18n="modes.timer.desc">All the clues, but the clock is running. Clear the roster as fast as you can.</span>
+>>>>>>> 6d64bad (v6)
         </button>
 
     </div>
 
     <div class="section-head section-head-test">
+<<<<<<< HEAD
         <h2>Specials</h2>
         <div class="section-rule"></div>
     </div>
     <p class="test-modes-note">Experimental mini-games — still deciding which of these stay.</p>
+=======
+        <h2 data-i18n="hub.section.specials">Specials</h2>
+        <div class="section-rule"></div>
+    </div>
+    <p class="test-modes-note" data-i18n="hub.specials.note">Experimental mini-games — still deciding which of these stay.</p>
+>>>>>>> 6d64bad (v6)
 
     <div class="mode-grid test-mode-grid">
 
@@ -172,13 +250,22 @@
                 <span class="mode-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24"><path d="M4 20V13M10 20V8M16 20V4M4 20h16"/></svg>
                 </span>
+<<<<<<< HEAD
                 <span class="count-toggle" role="group" aria-label="Number of players">
+=======
+                <span class="count-toggle" role="group" data-i18n-aria-label="modes.earnings.aria" aria-label="Number of players">
+>>>>>>> 6d64bad (v6)
                     <button type="button" class="count-pill active" data-count="5" onclick="setEarningsCount(5, event)">5</button>
                     <button type="button" class="count-pill" data-count="10" onclick="setEarningsCount(10, event)">10</button>
                 </span>
             </span>
+<<<<<<< HEAD
             <span class="mode-name">Earnings Rank</span>
             <span class="mode-desc">No clues but their face and tag. Rank the pack from highest to lowest career earnings.</span>
+=======
+            <span class="mode-name" data-i18n="modes.earnings.name">Earnings Rank</span>
+            <span class="mode-desc" data-i18n="modes.earnings.desc">No clues but their face and tag. Rank the pack from highest to lowest career earnings.</span>
+>>>>>>> 6d64bad (v6)
         </div>
 
         <div class="mode-card mode-era" role="button" tabindex="0"
@@ -189,6 +276,7 @@
                 <span class="mode-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24"><path d="M3 12h18M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>
                 </span>
+<<<<<<< HEAD
                 <span class="count-toggle" role="group" aria-label="Career period">
                     <button type="button" class="count-pill active" data-era="before" onclick="setEraPeriod('before', event)">Before</button>
                     <button type="button" class="count-pill" data-era="after" onclick="setEraPeriod('after', event)">After</button>
@@ -196,6 +284,15 @@
             </span>
             <span class="mode-name">Career Era</span>
             <span class="mode-desc">All the usual clues, but the roster is cut down to players active before or after RLCS Season X.</span>
+=======
+                <span class="count-toggle" role="group" data-i18n-aria-label="modes.era.aria" aria-label="Career period">
+                    <button type="button" class="count-pill active" data-era="before" data-i18n="modes.era.before" onclick="setEraPeriod('before', event)">Before</button>
+                    <button type="button" class="count-pill" data-era="after" data-i18n="modes.era.after" onclick="setEraPeriod('after', event)">After</button>
+                </span>
+            </span>
+            <span class="mode-name" data-i18n="modes.era.name">Career Era</span>
+            <span class="mode-desc" data-i18n="modes.era.desc">All the usual clues, but the roster is cut down to players active before or after RLCS Season X.</span>
+>>>>>>> 6d64bad (v6)
         </div>
 
         <div class="mode-card mode-region" role="button" tabindex="0"
@@ -206,6 +303,7 @@
                 <span class="mode-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 4 6 4 9s-1.5 6.5-4 9c-2.5-2.5-4-6-4-9s1.5-6.5 4-9z"/></svg>
                 </span>
+<<<<<<< HEAD
                 <select class="hub-select" id="regionSelect" aria-label="Competitive region"
                         onclick="event.stopPropagation()" onkeydown="event.stopPropagation()"
                         onchange="setRegionFilter(this.value)">
@@ -220,6 +318,26 @@
             </span>
             <span class="mode-name">Regional Scene</span>
             <span class="mode-desc">Same clues as Classic, but the roster is cut down to players currently competing in one region.</span>
+=======
+                <select class="hub-select" id="regionSelect"
+                        data-i18n-aria-label="modes.region.aria" aria-label="Competitive region"
+                        onclick="event.stopPropagation()" onkeydown="event.stopPropagation()"
+                        onchange="setRegionFilter(this.value)">
+                    <!-- Les `value` correspondent au champ `region` de players.json
+                         (voir tools/regions.py) — NE PAS traduire ces slugs, seul
+                         le texte visible passe par data-i18n. -->
+                    <option value="Europe" data-i18n="regions.europe">Europe</option>
+                    <option value="North America" data-i18n="regions.northAmerica">North America</option>
+                    <option value="South America" data-i18n="regions.southAmerica">South America</option>
+                    <option value="MENA" data-i18n="regions.mena">MENA</option>
+                    <option value="SSA" data-i18n="regions.ssa">SSA</option>
+                    <option value="Asia-Pacific" data-i18n="regions.asiaPacific">Asia-Pacific</option>
+                    <option value="Oceania" data-i18n="regions.oceania">Oceania</option>
+                </select>
+            </span>
+            <span class="mode-name" data-i18n="modes.region.name">Regional Scene</span>
+            <span class="mode-desc" data-i18n="modes.region.desc">Same clues as Classic, but the roster is cut down to players currently competing in one region.</span>
+>>>>>>> 6d64bad (v6)
         </div>
 
         <!-- Quick Ten n'a pas de contrôle imbriqué (pas de toggle/select) : un <button>
@@ -236,10 +354,17 @@
                 <span class="mode-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></svg>
                 </span>
+<<<<<<< HEAD
                 <span class="mode-tag">10 players</span>
             </span>
             <span class="mode-name">Quick Ten</span>
             <span class="mode-desc">Same clues as Classic, but just a short run of 10 random players — then a recap and a fresh set.</span>
+=======
+                <span class="mode-tag" data-i18n="modes.quickten.tag">10 players</span>
+            </span>
+            <span class="mode-name" data-i18n="modes.quickten.name">Quick Ten</span>
+            <span class="mode-desc" data-i18n="modes.quickten.desc">Same clues as Classic, but just a short run of 10 random players — then a recap and a fresh set.</span>
+>>>>>>> 6d64bad (v6)
         </div>
 
         <!-- Options peuplées par script.js (populateLanSelect()) une fois lans.json
@@ -252,13 +377,23 @@
                 <span class="mode-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24"><path d="M12 21s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
                 </span>
+<<<<<<< HEAD
                 <select class="hub-select" id="lanSelect" aria-label="LAN event"
+=======
+                <select class="hub-select" id="lanSelect"
+                        data-i18n-aria-label="modes.lan.aria" aria-label="LAN event"
+>>>>>>> 6d64bad (v6)
                         onclick="event.stopPropagation()" onkeydown="event.stopPropagation()"
                         onchange="setLanFilter(this.value)">
                 </select>
             </span>
+<<<<<<< HEAD
             <span class="mode-name">LAN Roster</span>
             <span class="mode-desc">Same clues as Classic, but the roster is cut down to everyone — 3v3, 1v1, 2v2 — who competed at one LAN.</span>
+=======
+            <span class="mode-name" data-i18n="modes.lan.name">LAN Roster</span>
+            <span class="mode-desc" data-i18n="modes.lan.desc">Same clues as Classic, but the roster is cut down to everyone — 3v3, 1v1, 2v2 — who competed at one LAN.</span>
+>>>>>>> 6d64bad (v6)
         </div>
 
     </div>
@@ -286,9 +421,16 @@
         </div>
 
         <div class="legal">
+<<<<<<< HEAD
             <div class="signature">𝐵𝓎 𝑀𝒶𝓈𝓉𝑒𝓇𝓅𝒶𝓉𝑒</div>
             <div>Fan site, not affiliated in any way with Psyonix or Epic Games. Rocket League is a trademark of Psyonix LLC.</div>
             <div>Player data and achievements: <a href="https://liquipedia.net/rocketleague/" target="_blank" rel="noopener noreferrer">Liquipedia</a> — CC-BY-SA 3.0.</div>
+=======
+            <!-- Signature stylée : nom propre, jamais traduit -->
+            <div class="signature">𝐵𝓎 𝑀𝒶𝓈𝓉𝑒𝓇𝓅𝒶𝓉𝑒</div>
+            <div data-i18n="hub.footer.disclaimer">Fan site, not affiliated in any way with Psyonix or Epic Games. Rocket League is a trademark of Psyonix LLC.</div>
+            <div data-i18n-html="hub.footer.data">Player data and achievements: <a href="https://liquipedia.net/rocketleague/" target="_blank" rel="noopener noreferrer">Liquipedia</a> — CC-BY-SA 3.0.</div>
+>>>>>>> 6d64bad (v6)
         </div>
 
     </footer>
@@ -302,23 +444,39 @@
 
     <div class="game-top">
 
+<<<<<<< HEAD
         <button class="btn-menu" onclick="goBackToMenu()"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Menu</button>
+=======
+        <button class="btn-menu" onclick="goBackToMenu()"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg><span data-i18n="game.btn.menu">Menu</span></button>
+>>>>>>> 6d64bad (v6)
 
         <div class="hud">
             <div class="hud-mode-wrap">
                 <button type="button" class="hud-pill hud-mode" id="hudMode" aria-haspopup="menu" aria-expanded="false">
+<<<<<<< HEAD
                     <span class="hud-mode-key">Mode&nbsp;·</span>
+=======
+                    <span class="hud-mode-key" data-i18n="hud.mode">Mode&nbsp;·</span>
+>>>>>>> 6d64bad (v6)
                     <span id="hudModeName">Classic</span>
                     <svg class="hud-caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5"/></svg>
                 </button>
                 <div class="mode-menu" id="modeMenu" role="menu" hidden></div>
             </div>
             <div class="hud-pill hud-score">
+<<<<<<< HEAD
                 <span class="hud-key">Score</span>
                 <span class="hud-val" id="scoreDisplay">0/0</span>
             </div>
             <div class="hud-pill hud-time" id="hudTime">
                 <span class="hud-key">Time</span>
+=======
+                <span class="hud-key" data-i18n="hud.score">Score</span>
+                <span class="hud-val" id="scoreDisplay">0/0</span>
+            </div>
+            <div class="hud-pill hud-time" id="hudTime">
+                <span class="hud-key" data-i18n="hud.time">Time</span>
+>>>>>>> 6d64bad (v6)
                 <span class="hud-val" id="timerDisplay">00:00</span>
             </div>
         </div>
@@ -331,7 +489,11 @@
         <section class="panel info-card">
 
             <div class="panel-head">
+<<<<<<< HEAD
                 <span class="panel-title">Player Info</span>
+=======
+                <span class="panel-title" data-i18n="panel.playerInfo">Player Info</span>
+>>>>>>> 6d64bad (v6)
                 <span class="panel-index" id="playerIndex">#0 / 0</span>
             </div>
 
@@ -344,7 +506,11 @@
                         <div class="photo-shimmer" aria-hidden="true"></div>
                         <div class="photo-mask" id="photoMask">
                             <div class="photo-sil" id="photoSil">?</div>
+<<<<<<< HEAD
                             <div class="photo-cap">Photo</div>
+=======
+                            <div class="photo-cap" data-i18n="panel.photo">Photo</div>
+>>>>>>> 6d64bad (v6)
                         </div>
                         <img id="playerPhoto" alt="" />
                     </div>
@@ -352,16 +518,29 @@
                     <div class="id-meta">
 
                         <div class="nat-block">
+<<<<<<< HEAD
                             <div class="field-label">Nationality</div>
+=======
+                            <div class="field-label" data-i18n="panel.nationality">Nationality</div>
+>>>>>>> 6d64bad (v6)
                             <div class="nationality" id="infoNationality">
                                 <img id="infoFlag" alt="" />
                                 <span id="infoCountryName"></span>
                             </div>
+<<<<<<< HEAD
+=======
+                            <!-- Texte réécrit par fillInfoCard() pour injecter le nom
+                                 du mode traduit — voir script.js. -->
+>>>>>>> 6d64bad (v6)
                             <div class="masked-note" id="flagMasked" hidden>
                                 <span class="masked-icon" aria-hidden="true">
                                     <svg viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 5.2h12.5l-2.4 3.9 2.4 3.9H5"/><path d="M3.6 3.6 20.4 20.4"/></svg>
                                 </span>
+<<<<<<< HEAD
                                 <span>Hidden in <span class="masked-mode">Hard</span> mode</span>
+=======
+                                <span class="masked-text">Hidden in <span class="masked-mode">Hard</span> mode</span>
+>>>>>>> 6d64bad (v6)
                             </div>
                         </div>
 
@@ -383,20 +562,34 @@
 
                     <div class="info-col">
                         <div class="field-label-row">
+<<<<<<< HEAD
                             <div class="field-label">Teams joined <span class="field-label-hint">— oldest first</span></div>
+=======
+                            <div class="field-label"><span data-i18n="panel.teamsJoined">Teams joined</span> <span class="field-label-hint" data-i18n="panel.oldestFirst">— oldest first</span></div>
+>>>>>>> 6d64bad (v6)
                             <div class="cap-note" id="teamsCapNote" hidden>Capped at 2</div>
                         </div>
                         <div class="team-tiles" id="teams"></div>
                     </div>
 
                     <div class="info-col">
+<<<<<<< HEAD
                         <div class="field-label">S-Tier Achievements</div>
                         <ul class="ach-list" id="infoAchievements"></ul>
+=======
+                        <div class="field-label" data-i18n="panel.achievements">S-Tier Achievements</div>
+                        <ul class="ach-list" id="infoAchievements"></ul>
+                        <!-- Idem masked-note : réécrit par fillInfoCard() -->
+>>>>>>> 6d64bad (v6)
                         <div class="locked-note" id="achLocked" hidden>
                             <div class="locked-icon" aria-hidden="true">
                                 <svg viewBox="0 0 24 24"><rect x="4.6" y="10.4" width="14.8" height="10.2" rx="2.2"/><path d="M8.2 10.4V7.6a3.8 3.8 0 0 1 7.6 0v2.8"/></svg>
                             </div>
+<<<<<<< HEAD
                             <div>Achievements unavailable in <span class="locked-mode">Medium</span> mode</div>
+=======
+                            <div class="locked-text">Achievements unavailable in <span class="locked-mode">Medium</span> mode</div>
+>>>>>>> 6d64bad (v6)
                         </div>
                     </div>
 
@@ -411,6 +604,7 @@
 
             <section class="panel answer-card">
 
+<<<<<<< HEAD
                 <div class="panel-title">Your answer</div>
                 <p class="panel-lede">Type the player's tag, then confirm.</p>
 
@@ -422,11 +616,31 @@
                 </div>
 
                 <button id="nextBtn" class="btn-next" onclick="nextPlayer()">Next player<svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+=======
+                <div class="panel-title" data-i18n="panel.answer.title">Your answer</div>
+                <p class="panel-lede" data-i18n="panel.answer.lede">Type the player's tag, then confirm.</p>
+
+                <!-- dir="ltr" forcé : les tags des joueurs restent en alphabet
+                     latin même quand la page passe en RTL (arabe) — sans ça
+                     Chrome inverserait l'alignement du caret et de la sélection. -->
+                <input type="text" id="guessInput" dir="ltr" placeholder="Player tag…" data-i18n-placeholder="panel.answer.placeholder" autocomplete="off" spellcheck="false">
+
+                <div class="answer-actions">
+                    <button id="validateBtn" class="btn-primary" data-i18n="panel.answer.confirm" onclick="checkAnswer()">Confirm</button>
+                    <button id="skipBtn" class="btn-ghost" data-i18n="panel.answer.skip" onclick="skipQuestion()">I don't know</button>
+                </div>
+
+                <button id="nextBtn" class="btn-next" onclick="nextPlayer()"><span data-i18n="panel.answer.next">Next player</span><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+>>>>>>> 6d64bad (v6)
 
             </section>
 
             <section class="panel clue-card">
+<<<<<<< HEAD
                 <span class="clue-lead">Clues</span>
+=======
+                <span class="clue-lead" data-i18n="clues.title">Clues</span>
+>>>>>>> 6d64bad (v6)
                 <div class="clue-list" id="clueList"></div>
             </section>
 
@@ -443,19 +657,32 @@
 
     <div class="game-top">
 
+<<<<<<< HEAD
         <button class="btn-menu" onclick="goBackToMenu()"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Menu</button>
+=======
+        <button class="btn-menu" onclick="goBackToMenu()"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg><span data-i18n="game.btn.menu">Menu</span></button>
+>>>>>>> 6d64bad (v6)
 
         <div class="hud">
             <div class="hud-mode-wrap">
                 <button type="button" class="hud-pill hud-mode" id="hudModeRank" aria-haspopup="menu" aria-expanded="false">
+<<<<<<< HEAD
                     <span class="hud-mode-key">Mode&nbsp;·</span>
                     <span>Earnings Rank</span>
+=======
+                    <span class="hud-mode-key" data-i18n="hud.mode">Mode&nbsp;·</span>
+                    <span data-i18n="modes.earnings.name">Earnings Rank</span>
+>>>>>>> 6d64bad (v6)
                     <svg class="hud-caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5"/></svg>
                 </button>
                 <div class="mode-menu" id="modeMenuRank" role="menu" hidden></div>
             </div>
             <div class="hud-pill hud-score">
+<<<<<<< HEAD
                 <span class="hud-key">Perfect rounds</span>
+=======
+                <span class="hud-key" data-i18n="hud.perfectRounds">Perfect rounds</span>
+>>>>>>> 6d64bad (v6)
                 <span class="hud-val" id="rankScoreDisplay">0/0</span>
             </div>
         </div>
@@ -465,19 +692,32 @@
     <section class="panel rank-panel">
 
         <div class="panel-head">
+<<<<<<< HEAD
             <span class="panel-title">Rank by career earnings</span>
+=======
+            <span class="panel-title" data-i18n="rank.panelTitle">Rank by career earnings</span>
+>>>>>>> 6d64bad (v6)
             <span class="panel-index" id="rankRoundIndex">Round 1</span>
         </div>
 
         <div class="panel-body">
 
+<<<<<<< HEAD
             <p class="rank-lede">Tap the players in order — <strong>highest career earnings first</strong>.</p>
+=======
+            <p class="rank-lede" data-i18n-html="rank.lede">Tap the players in order — <strong>highest career earnings first</strong>.</p>
+>>>>>>> 6d64bad (v6)
 
             <div class="rank-grid" id="rankGrid"></div>
 
             <div class="answer-actions">
+<<<<<<< HEAD
                 <button id="rankResetBtn" class="btn-ghost" onclick="resetRankPicks()">Reset picks</button>
                 <button id="rankNextBtn" class="btn-next" onclick="nextRankRound()">New round<svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+=======
+                <button id="rankResetBtn" class="btn-ghost" data-i18n="rank.reset" onclick="resetRankPicks()">Reset picks</button>
+                <button id="rankNextBtn" class="btn-next" onclick="nextRankRound()"><span data-i18n="rank.next">New round</span><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+>>>>>>> 6d64bad (v6)
             </div>
 
         </div>
@@ -497,29 +737,55 @@
         <div class="end-trophy" aria-hidden="true">
             <svg viewBox="0 0 24 24"><path d="M7.5 4h9v5.5a4.5 4.5 0 0 1-9 0z"/><path d="M7.5 5.5H4.8v1.7a3.4 3.4 0 0 0 3 3.3M16.5 5.5h2.7v1.7a3.4 3.4 0 0 1-3 3.3"/><path d="M12 14v3.6M8.8 20h6.4"/></svg>
         </div>
+<<<<<<< HEAD
+=======
+        <!-- Titre + accroche : réécrits par showEndScreen() pour refléter
+             le score réel et le mode joué, dans la langue courante. -->
+>>>>>>> 6d64bad (v6)
         <h2 class="end-title" id="endTitle">Congratulations!</h2>
         <p class="end-lede" id="endLede">You found every player in Classic mode.</p>
 
         <div class="end-stats">
             <div class="end-stat stat-score">
+<<<<<<< HEAD
                 <div class="end-stat-key">Final score</div>
                 <div class="end-stat-val" id="finalScore">0/0</div>
             </div>
             <div class="end-stat stat-time" id="finalTimeContainer">
                 <div class="end-stat-key">Final time</div>
+=======
+                <div class="end-stat-key" data-i18n="end.finalScore">Final score</div>
+                <div class="end-stat-val" id="finalScore">0/0</div>
+            </div>
+            <div class="end-stat stat-time" id="finalTimeContainer">
+                <div class="end-stat-key" data-i18n="end.finalTime">Final time</div>
+>>>>>>> 6d64bad (v6)
                 <div class="end-stat-val" id="finalTime">00:00</div>
             </div>
         </div>
 
         <div class="end-buttons">
+<<<<<<< HEAD
             <button class="btn-primary" onclick="restartMode()"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.6-5.9"/><path d="M20 3.4V9h-5.6"/></svg>Play Again</button>
             <button class="btn-ghost" onclick="goBackToMenu()"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Menu</button>
+=======
+            <button class="btn-primary" onclick="restartMode()"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.6-5.9"/><path d="M20 3.4V9h-5.6"/></svg><span data-i18n="end.playAgain">Play Again</span></button>
+            <button class="btn-ghost" onclick="goBackToMenu()"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg><span data-i18n="end.menu">Menu</span></button>
+>>>>>>> 6d64bad (v6)
         </div>
 
     </div>
 
 </div>
 
+<<<<<<< HEAD
+=======
+<!-- i18n.js DOIT être chargé avant script.js : il définit t()/setLanguage()
+     et applique la préférence de langue au DOM statique dès son exécution,
+     pour éviter un flash de contenu anglais avant que script.js prenne le
+     relais sur les parties dynamiques. -->
+<script src="i18n.js"></script>
+>>>>>>> 6d64bad (v6)
 <script src="script.js"></script>
 </body>
 </html>

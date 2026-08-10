@@ -78,6 +78,36 @@ Tout est piloté par `script.js` sur les éléments DOM déclarés dans `index.h
 
 `startMode()` fait hub → jeu, `goBackToMenu()` fait l'inverse, `showEndScreen()` superpose l'écran de fin.
 
+<<<<<<< HEAD
+=======
+### Routing (URL et back/forward)
+
+Bien qu'il n'y ait qu'un `index.html`, le mode courant est **persisté dans le hash de l'URL** : `#/mode/classic`, `#/mode/lan/rlcs-2026-paris-major`, `#/mode/era/after`, `#/mode/region/mena`, etc. Back/forward du navigateur naviguent entre le hub et les modes, et un lien avec hash (ex. `rlguessr.com#/mode/lan/rlcs-2026-paris-major`) démarre directement dans ce mode une fois les données chargées.
+
+**Pourquoi hash-based et pas History API avec de vraies URLs** : une vraie URL demanderait un rewrite Apache pour servir `index.html` sur n'importe quel chemin, et Raspberry Pi OS met `AllowOverride None` sur `/var/www` par défaut (voir « Déploiement » plus haut). Le hash reste côté client, aucun changement serveur nécessaire — cohérent avec la contrainte non négociable « rien de ce qui est déployé ne doit exiger un runtime ».
+
+Format des hashes (voir section « Routing » dans `script.js`) :
+- Hub : pas de hash (URL propre)
+- Modes classiques : `#/mode/{classic|medium|hard|extreme|timer}`
+- Earnings Rank : `#/mode/earnings` (sans le count 5/10 — c'est un réglage de session, pas un paramètre à partager)
+- Career Era : `#/mode/era/{before|after}`
+- Regional Scene : `#/mode/region/{slug}` (voir `REGION_SLUGS` dans `script.js` — les slugs sont stabilisés, pas dérivés à la volée : `Asia-Pacific` → `asia-pacific`, `MENA` → `mena`, etc.)
+- Quick Ten : `#/mode/quickten`
+- LAN Roster : `#/mode/lan/{lan.id}` (les ids de LAN sont déjà des slugs, cf. `lans.json`)
+
+**Deux invariants à conserver** :
+
+1. **Utiliser `history.pushState()`, jamais `location.hash =`.** `pushState()` met à jour l'URL sans déclencher `hashchange`, ce qui évite la boucle « on navigue → hashchange → on renavigue ». Les écouteurs `popstate`/`hashchange` ne réagissent alors qu'aux vraies actions utilisateur (back/forward, édition manuelle de l'URL).
+
+2. **Le guard `applyingRoute` reste indispensable.** Quand `popstate` déclenche `applyRoute()`, on appelle `startXxx()`/`goBackToMenu()` — qui appellent eux-mêmes `pushRoute()`. Sans le guard, on entasserait une entrée d'historique en double à chaque back/forward. À toucher ce chemin, vérifier que le guard couvre toujours l'appel.
+
+**Ajouter un mode** : penser à câbler `pushRoute("nom-du-mode"[, param])` juste avant l'appel `enterGameScreen(...)` dans le `startXxx()`, et à ajouter la branche correspondante dans le `switch` d'`applyRoute()`. Si le mode a un paramètre (comme LAN ou region), il doit aussi restaurer la valeur du filtre + mettre à jour l'UI du contrôle sur le hub (`select.value = ...`), sinon un back du navigateur relance le mode mais le hub n'a plus la bonne sélection affichée.
+
+**Le count 5/10 d'Earnings Rank et le period pill de Career Era ne sont PAS dans l'URL** pour des raisons différentes :
+- Earnings Rank : le count est un simple réglage local, on n'a pas voulu le porter dans une URL partageable
+- Career Era : c'est DÉJÀ dans le path (`/era/before` vs `/era/after`), pas dans un query — deux entrées d'historique distinctes, comme deux modes séparés
+
+>>>>>>> 6d64bad (v6)
 ### Design
 
 Le design vient d'un projet Claude Design importé (`RLGuessr.dc.html`) : hub avec héros « RL / GUESSR » en dégradé, cartes de mode colorées, vue de jeu en deux colonnes, carte de victoire. Le fichier source est un composant de prévisualisation React/DC — **rien de son JS n'est repris**, seuls la mise en page et le langage visuel ont été portés en CSS classique.
