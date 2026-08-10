@@ -1,0 +1,111 @@
+{
+  "roster": 198,
+  "players": 198,
+  "teams": 892,
+  "lans": 32,
+  "unresolved_tags": [],
+  "ambiguous_tags": [
+    {
+      "tag": "juicy",
+      "pages": [
+        "Juicy",
+        "Juicy_(French_Player)"
+      ]
+    },
+    {
+      "tag": "itachi",
+      "pages": [
+        "Itachi",
+        "Itachi_(Pakistani_Player)"
+      ]
+    },
+    {
+      "tag": "flamE",
+      "pages": [
+        "Dogu",
+        "FlamE"
+      ]
+    },
+    {
+      "tag": "deevo",
+      "pages": [
+        "Deevo",
+        "Deevo_(American_Player)"
+      ]
+    },
+    {
+      "tag": "Bluey",
+      "pages": [
+        "B_l_u_e_y",
+        "Bluey"
+      ]
+    },
+    {
+      "tag": "Jacob",
+      "pages": [
+        "JSW",
+        "Jacob"
+      ]
+    },
+    {
+      "tag": "Ahmad",
+      "pages": [
+        "Ahmad",
+        "Sythe"
+      ]
+    },
+    {
+      "tag": "Abdullah",
+      "pages": [
+        "Abdullah",
+        "Abdullah_(Omani_Player)",
+        "Rusi"
+      ]
+    },
+    {
+      "tag": "Diaz",
+      "pages": [
+        "Diaz",
+        "Diaz_(Brazilian_Player)"
+      ]
+    },
+    {
+      "tag": "hntr",
+      "pages": [
+        "Hntr",
+        "Hntr_(Saudi_Arabian_Player)"
+      ]
+    },
+    {
+      "tag": "scrub",
+      "pages": [
+        "Scrub_(Australian_Player)",
+        "Scrub_Killa"
+      ]
+    },
+    {
+      "tag": "Kevin",
+      "pages": [
+        "Kevin",
+        "Ojelly"
+      ]
+    }
+  ],
+  "players_without_photo": [],
+  "players_without_country": [],
+  "players_without_teams": [],
+  "players_without_achievements": [
+    "Mozzarella",
+    "Rust ez",
+    "mtzr",
+    "Crispy",
+    "justin",
+    "frosty",
+    "TempoH"
+  ],
+  "players_without_region": [],
+  "teams_without_logo": [],
+  "logo_download_failures": [],
+  "api_requests": 0,
+  "cache_hits": 76
+}

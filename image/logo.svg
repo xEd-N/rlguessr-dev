@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="RLGuessr">
+    <title>RLGuessr</title>
+
+    <!-- Reprise de linear-gradient(140deg, #ff7a18, #0094ff) : pour une boîte
+         64x64 la ligne de dégradé CSS va de (3.03, -2.53) à (60.97, 66.53). -->
+    <defs>
+        <linearGradient id="rlgMark" gradientUnits="userSpaceOnUse"
+                        x1="3.03" y1="-2.53" x2="60.97" y2="66.53">
+            <stop offset="0" stop-color="#ff7a18"/>
+            <stop offset="1" stop-color="#0094ff"/>
+        </linearGradient>
+    </defs>
+
+    <!-- rx = 16.9 : même ratio que le 9px de rayon sur les 34px de .brand-mark -->
+    <rect width="64" height="64" rx="16.9" fill="url(#rlgMark)"/>
+
+    <!-- « R » tracé à la main dans un repère hauteur de capitale = 100, puis
+         mis à l'échelle et centré. Le contour extérieur et la contreforme sont
+         dans un seul path : fill-rule="evenodd" évide la contreforme. -->
+    <path transform="translate(21.08 18) scale(.28)" fill="#05070f" fill-rule="evenodd"
+          d="M0 0 H45 C64 0 75 10 75 26 C75 41 66 50 55 52 L78 100 H49 L27 52 V100 H0 Z
+             M27 20 H46 C52 20 56 22.5 56 27 C56 31.5 52 34 46 34 H27 Z"/>
+</svg>

@@ -1,0 +1,4462 @@
+[
+  {
+    "id": "atm",
+    "name": "$ATM",
+    "logo": "logos/atm.png"
+  },
+  {
+    "id": "00-nation-dnb",
+    "name": "00 Nation DNB",
+    "logo": "logos/00-nation-dnb.png"
+  },
+  {
+    "id": "00-prospects-dnb",
+    "name": "00 Prospects DNB",
+    "logo": "logos/00-prospects-dnb.png"
+  },
+  {
+    "id": "01-esports",
+    "name": "01 Esports",
+    "logo": "logos/01-esports.png"
+  },
+  {
+    "id": "100",
+    "name": "100%",
+    "logo": "logos/100.png"
+  },
+  {
+    "id": "100x35-esports",
+    "name": "100X35 Esports",
+    "logo": "logos/100x35-esports.png"
+  },
+  {
+    "id": "140g",
+    "name": "140G",
+    "logo": "logos/140g.png"
+  },
+  {
+    "id": "1more",
+    "name": "1More",
+    "logo": "logos/1more.png"
+  },
+  {
+    "id": "1ne-esports",
+    "name": "1NE eSports",
+    "logo": "logos/1ne-esports.png"
+  },
+  {
+    "id": "2-danes-1-bruv",
+    "name": "2 Danes 1 Bruv",
+    "logo": null
+  },
+  {
+    "id": "26-rising",
+    "name": "26 RISING",
+    "logo": "logos/26-rising.png"
+  },
+  {
+    "id": "3goats",
+    "name": "3goats",
+    "logo": null
+  },
+  {
+    "id": "3rats",
+    "name": "3RATS",
+    "logo": "logos/3rats.png"
+  },
+  {
+    "id": "5head",
+    "name": "5Head",
+    "logo": "logos/5head.png"
+  },
+  {
+    "id": "72pc",
+    "name": "72PC",
+    "logo": "logos/72pc.png"
+  },
+  {
+    "id": "90-7",
+    "name": "90+7",
+    "logo": "logos/90-7.png"
+  },
+  {
+    "id": "9lies-esports",
+    "name": "9Lies Esports",
+    "logo": "logos/9lies-esports.png"
+  },
+  {
+    "id": "9lives",
+    "name": "9Lives",
+    "logo": "logos/9lives.png"
+  },
+  {
+    "id": "redacted",
+    "name": "[REDACTED]",
+    "logo": "logos/redacted.png"
+  },
+  {
+    "id": "a-frosch",
+    "name": "a Frosch",
+    "logo": "logos/a-frosch.png"
+  },
+  {
+    "id": "abs-esports",
+    "name": "ABS Esports",
+    "logo": "logos/abs-esports.png"
+  },
+  {
+    "id": "abyss-esports-club",
+    "name": "Abyss eSports Club",
+    "logo": "logos/abyss-esports-club.png"
+  },
+  {
+    "id": "aces",
+    "name": "Aces",
+    "logo": null
+  },
+  {
+    "id": "adept",
+    "name": "Adept",
+    "logo": "logos/adept.png"
+  },
+  {
+    "id": "aelix",
+    "name": "Aelix",
+    "logo": "logos/aelix.png"
+  },
+  {
+    "id": "aeriality",
+    "name": "Aeriality",
+    "logo": "logos/aeriality.png"
+  },
+  {
+    "id": "aether",
+    "name": "Aether",
+    "logo": null
+  },
+  {
+    "id": "affinity",
+    "name": "Affinity",
+    "logo": "logos/affinity.png"
+  },
+  {
+    "id": "afterthought",
+    "name": "Afterthought",
+    "logo": "logos/afterthought.png"
+  },
+  {
+    "id": "aion-esports",
+    "name": "AION Esports",
+    "logo": "logos/aion-esports.png"
+  },
+  {
+    "id": "aka-hero",
+    "name": "AKA HERO",
+    "logo": "logos/aka-hero.png"
+  },
+  {
+    "id": "akimbo-esports",
+    "name": "Akimbo Esports",
+    "logo": "logos/akimbo-esports.png"
+  },
+  {
+    "id": "al-qadsiah",
+    "name": "Al Qadsiah",
+    "logo": "logos/al-qadsiah.png"
+  },
+  {
+    "id": "alke",
+    "name": "Alke",
+    "logo": "logos/alke.png"
+  },
+  {
+    "id": "allegiance",
+    "name": "Allegiance",
+    "logo": "logos/allegiance.png"
+  },
+  {
+    "id": "almost-nuts",
+    "name": "Almost Nuts",
+    "logo": "logos/almost-nuts.png"
+  },
+  {
+    "id": "alpha-af",
+    "name": "Alpha AF",
+    "logo": "logos/alpha-af.png"
+  },
+  {
+    "id": "alpha-sydney",
+    "name": "Alpha Sydney",
+    "logo": "logos/alpha-sydney.png"
+  },
+  {
+    "id": "ambition-esports",
+    "name": "Ambition Esports",
+    "logo": "logos/ambition-esports.png"
+  },
+  {
+    "id": "amethyst",
+    "name": "Amethyst",
+    "logo": "logos/amethyst.png"
+  },
+  {
+    "id": "ankaa-esports",
+    "name": "ANKAA Esports",
+    "logo": "logos/ankaa-esports.png"
+  },
+  {
+    "id": "anything",
+    "name": "Anything",
+    "logo": null
+  },
+  {
+    "id": "aogiri",
+    "name": "Aogiri",
+    "logo": "logos/aogiri.png"
+  },
+  {
+    "id": "apple-slices",
+    "name": "Apple Slices",
+    "logo": null
+  },
+  {
+    "id": "applesauce",
+    "name": "Applesauce",
+    "logo": null
+  },
+  {
+    "id": "arg",
+    "name": "ARG",
+    "logo": "logos/arg.png"
+  },
+  {
+    "id": "argentina",
+    "name": "Argentina",
+    "logo": "logos/argentina.svg"
+  },
+  {
+    "id": "army5-fearow",
+    "name": "Army5 Fearow",
+    "logo": "logos/army5-fearow.png"
+  },
+  {
+    "id": "arora-esports",
+    "name": "Arora Esports",
+    "logo": "logos/arora-esports.png"
+  },
+  {
+    "id": "arrogant",
+    "name": "Arrogant",
+    "logo": "logos/arrogant.png"
+  },
+  {
+    "id": "as-monaco-esports",
+    "name": "AS Monaco Esports",
+    "logo": "logos/as-monaco-esports.png"
+  },
+  {
+    "id": "ascend",
+    "name": "Ascend",
+    "logo": "logos/ascend.png"
+  },
+  {
+    "id": "asia-manji",
+    "name": "Asia Manji",
+    "logo": "logos/asia-manji.png"
+  },
+  {
+    "id": "astronic-esports",
+    "name": "Astronic Esports",
+    "logo": "logos/astronic-esports.png"
+  },
+  {
+    "id": "astrum",
+    "name": "Astrum",
+    "logo": "logos/astrum.png"
+  },
+  {
+    "id": "atelier",
+    "name": "Atelier",
+    "logo": "logos/atelier.png"
+  },
+  {
+    "id": "atlantide-wave",
+    "name": "Atlantide Wave",
+    "logo": "logos/atlantide-wave.png"
+  },
+  {
+    "id": "atypical",
+    "name": "Atypical",
+    "logo": "logos/atypical.png"
+  },
+  {
+    "id": "australia",
+    "name": "Australia",
+    "logo": "logos/australia.svg"
+  },
+  {
+    "id": "austrian-force",
+    "name": "Austrian Force",
+    "logo": "logos/austrian-force.png"
+  },
+  {
+    "id": "auto-tune",
+    "name": "Auto Tune",
+    "logo": null
+  },
+  {
+    "id": "avidity-esports",
+    "name": "Avidity Esports",
+    "logo": "logos/avidity-esports.png"
+  },
+  {
+    "id": "avocado",
+    "name": "Avocado",
+    "logo": null
+  },
+  {
+    "id": "awkward-turtles",
+    "name": "Awkward Turtles",
+    "logo": "logos/awkward-turtles.png"
+  },
+  {
+    "id": "axolotl-esports",
+    "name": "Axolotl Esports",
+    "logo": "logos/axolotl-esports.png"
+  },
+  {
+    "id": "bag-work",
+    "name": "Bag Work",
+    "logo": null
+  },
+  {
+    "id": "baguette-squad",
+    "name": "Baguette Squad",
+    "logo": "logos/baguette-squad.png"
+  },
+  {
+    "id": "balaio-beautiful",
+    "name": "balaio beautiful",
+    "logo": null
+  },
+  {
+    "id": "banana",
+    "name": "BANANA",
+    "logo": null
+  },
+  {
+    "id": "bangkok-bulls",
+    "name": "Bangkok Bulls",
+    "logo": null
+  },
+  {
+    "id": "barrage-esports",
+    "name": "Barrage Esports",
+    "logo": "logos/barrage-esports.png"
+  },
+  {
+    "id": "baylor-university",
+    "name": "Baylor University",
+    "logo": "logos/baylor-university.png"
+  },
+  {
+    "id": "belgium",
+    "name": "Belgium",
+    "logo": "logos/belgium.svg"
+  },
+  {
+    "id": "belligol",
+    "name": "Belligol",
+    "logo": "logos/belligol.png"
+  },
+  {
+    "id": "bigodes",
+    "name": "Bigodes",
+    "logo": null
+  },
+  {
+    "id": "bigstizzy",
+    "name": "BigStizzy",
+    "logo": null
+  },
+  {
+    "id": "billy-fan-club",
+    "name": "Billy Fan Club",
+    "logo": "logos/billy-fan-club.png"
+  },
+  {
+    "id": "birds",
+    "name": "Birds",
+    "logo": "logos/birds.png"
+  },
+  {
+    "id": "bittersweet",
+    "name": "BitterSweet",
+    "logo": "logos/bittersweet.png"
+  },
+  {
+    "id": "blazar",
+    "name": "Blazar",
+    "logo": "logos/blazar.png"
+  },
+  {
+    "id": "blessed-esports",
+    "name": "Blessed Esports",
+    "logo": "logos/blessed-esports.png"
+  },
+  {
+    "id": "blitzers",
+    "name": "Blitzers",
+    "logo": "logos/blitzers.png"
+  },
+  {
+    "id": "block-block",
+    "name": "Block Block",
+    "logo": "logos/block-block.png"
+  },
+  {
+    "id": "blue-tags-pick-ups",
+    "name": "Blue Tags Pick Ups",
+    "logo": null
+  },
+  {
+    "id": "bnw",
+    "name": "BNW",
+    "logo": null
+  },
+  {
+    "id": "bodybuilders",
+    "name": "Bodybuilders",
+    "logo": null
+  },
+  {
+    "id": "bonjour",
+    "name": "BONJOUR",
+    "logo": "logos/bonjour.png"
+  },
+  {
+    "id": "bosf-esports",
+    "name": "BoSF eSports",
+    "logo": "logos/bosf-esports.png"
+  },
+  {
+    "id": "bosmark",
+    "name": "Bosmark",
+    "logo": null
+  },
+  {
+    "id": "boulevard",
+    "name": "Boulevard",
+    "logo": "logos/boulevard.png"
+  },
+  {
+    "id": "brain-chasers",
+    "name": "Brain Chasers",
+    "logo": null
+  },
+  {
+    "id": "bravado-gaming",
+    "name": "Bravado Gaming",
+    "logo": "logos/bravado-gaming.png"
+  },
+  {
+    "id": "brazil",
+    "name": "Brazil",
+    "logo": "logos/brazil.svg"
+  },
+  {
+    "id": "bread",
+    "name": "Bread",
+    "logo": "logos/bread.png"
+  },
+  {
+    "id": "bremen-esports",
+    "name": "Bremen eSports",
+    "logo": "logos/bremen-esports.png"
+  },
+  {
+    "id": "britalians",
+    "name": "BRITALIANS",
+    "logo": null
+  },
+  {
+    "id": "brotherhood",
+    "name": "Brotherhood",
+    "logo": null
+  },
+  {
+    "id": "bs-competition",
+    "name": "BS+COMPETITION",
+    "logo": "logos/bs-competition.png"
+  },
+  {
+    "id": "bsr",
+    "name": "BSR",
+    "logo": null
+  },
+  {
+    "id": "bull-send",
+    "name": "Bull Send",
+    "logo": "logos/bull-send.png"
+  },
+  {
+    "id": "bulletproof",
+    "name": "Bulletproof",
+    "logo": null
+  },
+  {
+    "id": "buzzerbeaters",
+    "name": "BuzzerBeaters",
+    "logo": null
+  },
+  {
+    "id": "caldya-esport",
+    "name": "Caldya Esport",
+    "logo": "logos/caldya-esport.png"
+  },
+  {
+    "id": "caliente",
+    "name": "CALIENTE",
+    "logo": "logos/caliente.png"
+  },
+  {
+    "id": "canada",
+    "name": "Canada",
+    "logo": "logos/canada.svg"
+  },
+  {
+    "id": "canterbury-bankstown-bulldogs",
+    "name": "Canterbury-Bankstown Bulldogs",
+    "logo": "logos/canterbury-bankstown-bulldogs.png"
+  },
+  {
+    "id": "canyons",
+    "name": "Canyons",
+    "logo": "logos/canyons.png"
+  },
+  {
+    "id": "carl",
+    "name": "CARL",
+    "logo": null
+  },
+  {
+    "id": "carnage-gaming",
+    "name": "Carnage Gaming",
+    "logo": "logos/carnage-gaming.png"
+  },
+  {
+    "id": "castle-black-esports",
+    "name": "Castle Black Esports",
+    "logo": "logos/castle-black-esports.png"
+  },
+  {
+    "id": "catalyst",
+    "name": "Catalyst",
+    "logo": null
+  },
+  {
+    "id": "cavemen",
+    "name": "Cavemen",
+    "logo": null
+  },
+  {
+    "id": "celestials",
+    "name": "Celestials",
+    "logo": "logos/celestials.png"
+  },
+  {
+    "id": "chalked",
+    "name": "Chalked",
+    "logo": "logos/chalked.png"
+  },
+  {
+    "id": "changuitos-fc",
+    "name": "Changuitos FC",
+    "logo": null
+  },
+  {
+    "id": "chaos-esports-club",
+    "name": "Chaos Esports Club",
+    "logo": "logos/chaos-esports-club.png"
+  },
+  {
+    "id": "charlotte-phoenix",
+    "name": "Charlotte Phoenix",
+    "logo": "logos/charlotte-phoenix.png"
+  },
+  {
+    "id": "chasers",
+    "name": "Chasers",
+    "logo": "logos/chasers.png"
+  },
+  {
+    "id": "cheers",
+    "name": "Cheers",
+    "logo": "logos/cheers.png"
+  },
+  {
+    "id": "chicken-dippers",
+    "name": "Chicken dippers",
+    "logo": "logos/chicken-dippers.png"
+  },
+  {
+    "id": "chicos-grandes",
+    "name": "Chicos Grandes",
+    "logo": null
+  },
+  {
+    "id": "chile",
+    "name": "Chile",
+    "logo": "logos/chile.svg"
+  },
+  {
+    "id": "chimpwits",
+    "name": "Chimpwits",
+    "logo": "logos/chimpwits.png"
+  },
+  {
+    "id": "chippy-chips",
+    "name": "Chippy Chips",
+    "logo": "logos/chippy-chips.png"
+  },
+  {
+    "id": "chomp",
+    "name": "Chomp",
+    "logo": null
+  },
+  {
+    "id": "chromax",
+    "name": "Chromax",
+    "logo": "logos/chromax.png"
+  },
+  {
+    "id": "chronix",
+    "name": "Chronix",
+    "logo": "logos/chronix.png"
+  },
+  {
+    "id": "cicadas-gaming",
+    "name": "Cicadas Gaming",
+    "logo": "logos/cicadas-gaming.png"
+  },
+  {
+    "id": "class-on-grass",
+    "name": "Class on Grass",
+    "logo": "logos/class-on-grass.png"
+  },
+  {
+    "id": "cloud9",
+    "name": "Cloud9",
+    "logo": "logos/cloud9.png"
+  },
+  {
+    "id": "clovarity",
+    "name": "Clovarity",
+    "logo": "logos/clovarity.png"
+  },
+  {
+    "id": "coggas",
+    "name": "Coggas",
+    "logo": null
+  },
+  {
+    "id": "cola",
+    "name": "Cola",
+    "logo": "logos/cola.png"
+  },
+  {
+    "id": "cold",
+    "name": "Cold",
+    "logo": null
+  },
+  {
+    "id": "colombia",
+    "name": "Colombia",
+    "logo": "logos/colombia.svg"
+  },
+  {
+    "id": "columbia-college",
+    "name": "Columbia College",
+    "logo": "logos/columbia-college.png"
+  },
+  {
+    "id": "complexity-gaming",
+    "name": "Complexity Gaming",
+    "logo": "logos/complexity-gaming.png"
+  },
+  {
+    "id": "comrade-gaming-eu",
+    "name": "Comrade Gaming EU",
+    "logo": "logos/comrade-gaming-eu.png"
+  },
+  {
+    "id": "concord-university",
+    "name": "Concord University",
+    "logo": "logos/concord-university.png"
+  },
+  {
+    "id": "continuum",
+    "name": "Continuum",
+    "logo": "logos/continuum.png"
+  },
+  {
+    "id": "control-esports",
+    "name": "Control Esports",
+    "logo": "logos/control-esports.png"
+  },
+  {
+    "id": "coolio",
+    "name": "Coolio",
+    "logo": "logos/coolio.png"
+  },
+  {
+    "id": "copenhagen-flames",
+    "name": "Copenhagen Flames",
+    "logo": "logos/copenhagen-flames.png"
+  },
+  {
+    "id": "corinthians-esports",
+    "name": "Corinthians Esports",
+    "logo": "logos/corinthians-esports.png"
+  },
+  {
+    "id": "cosmic-aftershock",
+    "name": "Cosmic Aftershock",
+    "logo": "logos/cosmic-aftershock.png"
+  },
+  {
+    "id": "cosmico-esports",
+    "name": "CosmiCo Esports",
+    "logo": "logos/cosmico-esports.png"
+  },
+  {
+    "id": "counter-logic-gaming",
+    "name": "Counter Logic Gaming",
+    "logo": "logos/counter-logic-gaming.png"
+  },
+  {
+    "id": "cow-nose",
+    "name": "Cow Nose",
+    "logo": "logos/cow-nose.png"
+  },
+  {
+    "id": "cracked-crackers",
+    "name": "Cracked Crackers",
+    "logo": "logos/cracked-crackers.png"
+  },
+  {
+    "id": "crazy-crew",
+    "name": "Crazy Crew",
+    "logo": "logos/crazy-crew.png"
+  },
+  {
+    "id": "criminals",
+    "name": "Criminals",
+    "logo": "logos/criminals.png"
+  },
+  {
+    "id": "crimson-wings",
+    "name": "Crimson Wings",
+    "logo": "logos/crimson-wings.png"
+  },
+  {
+    "id": "cringe",
+    "name": "Cringe",
+    "logo": null
+  },
+  {
+    "id": "cringe-society",
+    "name": "Cringe Society",
+    "logo": null
+  },
+  {
+    "id": "cristobal-colon",
+    "name": "Cristobal Colon",
+    "logo": "logos/cristobal-colon.png"
+  },
+  {
+    "id": "crown-jewels",
+    "name": "Crown & Jewels",
+    "logo": "logos/crown-jewels.png"
+  },
+  {
+    "id": "crown-jewels-frost",
+    "name": "Crown & Jewels Frost",
+    "logo": "logos/crown-jewels-frost.png"
+  },
+  {
+    "id": "cyberground-gaming",
+    "name": "Cyberground Gaming",
+    "logo": "logos/cyberground-gaming.png"
+  },
+  {
+    "id": "da-girlz",
+    "name": "Da Girlz",
+    "logo": null
+  },
+  {
+    "id": "dai-dai-gaming",
+    "name": "Dai Dai Gaming",
+    "logo": "logos/dai-dai-gaming.png"
+  },
+  {
+    "id": "damage-inc",
+    "name": "Damage Inc",
+    "logo": "logos/damage-inc.png"
+  },
+  {
+    "id": "dangerous-esports-club",
+    "name": "Dangerous Esports Club",
+    "logo": "logos/dangerous-esports-club.png"
+  },
+  {
+    "id": "danish-dynamite",
+    "name": "Danish Dynamite",
+    "logo": null
+  },
+  {
+    "id": "dark-horse",
+    "name": "Dark Horse",
+    "logo": "logos/dark-horse.png"
+  },
+  {
+    "id": "dark-sided",
+    "name": "Dark Sided",
+    "logo": "logos/dark-sided.png"
+  },
+  {
+    "id": "darkzero",
+    "name": "DarkZero",
+    "logo": "logos/darkzero.png"
+  },
+  {
+    "id": "dead-rabbits",
+    "name": "Dead Rabbits",
+    "logo": "logos/dead-rabbits.png"
+  },
+  {
+    "id": "death-cloud-esports",
+    "name": "Death Cloud Esports",
+    "logo": "logos/death-cloud-esports.png"
+  },
+  {
+    "id": "deception",
+    "name": "Deception",
+    "logo": "logos/deception.png"
+  },
+  {
+    "id": "decimate-gaming",
+    "name": "Decimate Gaming",
+    "logo": "logos/decimate-gaming.png"
+  },
+  {
+    "id": "defiant",
+    "name": "Defiant",
+    "logo": "logos/defiant.png"
+  },
+  {
+    "id": "deleted-gaming",
+    "name": "Deleted Gaming",
+    "logo": "logos/deleted-gaming.png"
+  },
+  {
+    "id": "demons",
+    "name": "Demons",
+    "logo": null
+  },
+  {
+    "id": "denial-esports",
+    "name": "Denial Esports",
+    "logo": "logos/denial-esports.png"
+  },
+  {
+    "id": "denied",
+    "name": "Denied",
+    "logo": "logos/denied.png"
+  },
+  {
+    "id": "denmark",
+    "name": "Denmark",
+    "logo": "logos/denmark.svg"
+  },
+  {
+    "id": "die-flamongos",
+    "name": "Die Flamongos",
+    "logo": "logos/die-flamongos.png"
+  },
+  {
+    "id": "die-schmackofatzen",
+    "name": "Die Schmackofatzen",
+    "logo": null
+  },
+  {
+    "id": "dignitas",
+    "name": "Dignitas",
+    "logo": "logos/dignitas.png"
+  },
+  {
+    "id": "dilettantes",
+    "name": "Dilettantes",
+    "logo": null
+  },
+  {
+    "id": "dire-wolves",
+    "name": "Dire Wolves",
+    "logo": "logos/dire-wolves.png"
+  },
+  {
+    "id": "disasterclass",
+    "name": "Disasterclass",
+    "logo": null
+  },
+  {
+    "id": "discombobulators",
+    "name": "Discombobulators",
+    "logo": "logos/discombobulators.png"
+  },
+  {
+    "id": "divizon",
+    "name": "DIVIZON",
+    "logo": "logos/divizon.png"
+  },
+  {
+    "id": "dmy",
+    "name": "dmy",
+    "logo": null
+  },
+  {
+    "id": "doggles-esports",
+    "name": "Doggles Esports",
+    "logo": "logos/doggles-esports.jpg"
+  },
+  {
+    "id": "donkey-squad",
+    "name": "Donkey squad",
+    "logo": "logos/donkey-squad.png"
+  },
+  {
+    "id": "dopamine",
+    "name": "Dopamine",
+    "logo": null
+  },
+  {
+    "id": "dopshot",
+    "name": "Dopshot",
+    "logo": null
+  },
+  {
+    "id": "dot-dot-dot",
+    "name": "Dot Dot Dot",
+    "logo": null
+  },
+  {
+    "id": "dream",
+    "name": "Dream",
+    "logo": "logos/dream.png"
+  },
+  {
+    "id": "dreamstation",
+    "name": "Dreamstation",
+    "logo": "logos/dreamstation.png"
+  },
+  {
+    "id": "drifting-baguettes",
+    "name": "Drifting Baguettes",
+    "logo": "logos/drifting-baguettes.png"
+  },
+  {
+    "id": "dtn",
+    "name": "DTN",
+    "logo": null
+  },
+  {
+    "id": "dumb",
+    "name": "Dumb",
+    "logo": null
+  },
+  {
+    "id": "dunno-chief",
+    "name": "Dunno Chief",
+    "logo": "logos/dunno-chief.png"
+  },
+  {
+    "id": "dust-sucker",
+    "name": "Dust Sucker",
+    "logo": "logos/dust-sucker.png"
+  },
+  {
+    "id": "dutch-bim-bam",
+    "name": "Dutch Bim Bam",
+    "logo": null
+  },
+  {
+    "id": "dynasty",
+    "name": "Dynasty",
+    "logo": "logos/dynasty.png"
+  },
+  {
+    "id": "e-girl-hunters",
+    "name": "E-girl Hunters",
+    "logo": null
+  },
+  {
+    "id": "eanix",
+    "name": "Eanix",
+    "logo": "logos/eanix.png"
+  },
+  {
+    "id": "edward-gaming",
+    "name": "EDward Gaming",
+    "logo": "logos/edward-gaming.png"
+  },
+  {
+    "id": "eff0rt",
+    "name": "Eff0rt",
+    "logo": "logos/eff0rt.png"
+  },
+  {
+    "id": "egirls",
+    "name": "egirls",
+    "logo": null
+  },
+  {
+    "id": "eighty6-esports",
+    "name": "Eighty6 Esports",
+    "logo": "logos/eighty6-esports.png"
+  },
+  {
+    "id": "element",
+    "name": "Element",
+    "logo": null
+  },
+  {
+    "id": "elevate",
+    "name": "Elevate",
+    "logo": "logos/elevate.png"
+  },
+  {
+    "id": "ellevens-esports",
+    "name": "Ellevens Esports",
+    "logo": "logos/ellevens-esports.png"
+  },
+  {
+    "id": "emarolagem",
+    "name": "Emarolagem",
+    "logo": null
+  },
+  {
+    "id": "emonkeyz",
+    "name": "eMonkeyz",
+    "logo": "logos/emonkeyz.png"
+  },
+  {
+    "id": "emotion",
+    "name": "Emotion",
+    "logo": "logos/emotion.png"
+  },
+  {
+    "id": "empty",
+    "name": "EMPTY",
+    "logo": "logos/empty.png"
+  },
+  {
+    "id": "encore",
+    "name": "ENCORE",
+    "logo": "logos/encore.png"
+  },
+  {
+    "id": "endgame",
+    "name": "EndGame",
+    "logo": "logos/endgame.png"
+  },
+  {
+    "id": "endpoint-cex",
+    "name": "Endpoint CeX",
+    "logo": "logos/endpoint-cex.png"
+  },
+  {
+    "id": "england",
+    "name": "England",
+    "logo": "logos/england.svg"
+  },
+  {
+    "id": "entropy-gaming",
+    "name": "Entropy Gaming",
+    "logo": "logos/entropy-gaming.png"
+  },
+  {
+    "id": "envy",
+    "name": "ENVY",
+    "logo": "logos/envy.png"
+  },
+  {
+    "id": "equinox",
+    "name": "eQuinox",
+    "logo": "logos/equinox.png"
+  },
+  {
+    "id": "era",
+    "name": "eRa",
+    "logo": "logos/era.png"
+  },
+  {
+    "id": "erah-esport",
+    "name": "Erah Esport",
+    "logo": "logos/erah-esport.png"
+  },
+  {
+    "id": "erased",
+    "name": "Erased",
+    "logo": "logos/erased.png"
+  },
+  {
+    "id": "erodium",
+    "name": "Erodium",
+    "logo": "logos/erodium.png"
+  },
+  {
+    "id": "esport-berg",
+    "name": "Esport BERG",
+    "logo": "logos/esport-berg.png"
+  },
+  {
+    "id": "eunited",
+    "name": "eUnited",
+    "logo": "logos/eunited.png"
+  },
+  {
+    "id": "euronics-gaming",
+    "name": "EURONICS Gaming",
+    "logo": "logos/euronics-gaming.png"
+  },
+  {
+    "id": "evil-geniuses",
+    "name": "Evil Geniuses",
+    "logo": "logos/evil-geniuses.png"
+  },
+  {
+    "id": "evoza-esport",
+    "name": "EvozA Esport",
+    "logo": "logos/evoza-esport.png"
+  },
+  {
+    "id": "ex-secret",
+    "name": "Ex-Secret",
+    "logo": null
+  },
+  {
+    "id": "exalty",
+    "name": "Exalty",
+    "logo": "logos/exalty.png"
+  },
+  {
+    "id": "excel-esports",
+    "name": "Excel Esports",
+    "logo": "logos/excel-esports.png"
+  },
+  {
+    "id": "exodus",
+    "name": "Exodus",
+    "logo": "logos/exodus.png"
+  },
+  {
+    "id": "exotic-esports",
+    "name": "Exotic Esports",
+    "logo": "logos/exotic-esports.png"
+  },
+  {
+    "id": "exray",
+    "name": "ExRay",
+    "logo": "logos/exray.png"
+  },
+  {
+    "id": "f-for-friends",
+    "name": "F for Friends",
+    "logo": null
+  },
+  {
+    "id": "f16-esports",
+    "name": "F16 Esports",
+    "logo": "logos/f16-esports.png"
+  },
+  {
+    "id": "f4wd",
+    "name": "F4WD",
+    "logo": "logos/f4wd.png"
+  },
+  {
+    "id": "fact-revolution",
+    "name": "Fact Revolution",
+    "logo": "logos/fact-revolution.png"
+  },
+  {
+    "id": "fadeaway",
+    "name": "Fadeaway",
+    "logo": "logos/fadeaway.png"
+  },
+  {
+    "id": "failure-to-launch",
+    "name": "Failure to Launch",
+    "logo": null
+  },
+  {
+    "id": "famous",
+    "name": "FAMOUS",
+    "logo": null
+  },
+  {
+    "id": "faze-clan",
+    "name": "FaZe Clan",
+    "logo": "logos/faze-clan.png"
+  },
+  {
+    "id": "fc-barcelona",
+    "name": "FC Barcelona",
+    "logo": "logos/fc-barcelona.png"
+  },
+  {
+    "id": "fearless",
+    "name": "Fearless",
+    "logo": null
+  },
+  {
+    "id": "fekyx",
+    "name": "FekyX",
+    "logo": "logos/fekyx.png"
+  },
+  {
+    "id": "fibeon-esports",
+    "name": "Fibeon Esports",
+    "logo": "logos/fibeon-esports.png"
+  },
+  {
+    "id": "finished-dutchman",
+    "name": "Finished Dutchman",
+    "logo": null
+  },
+  {
+    "id": "finland",
+    "name": "Finland",
+    "logo": "logos/finland.svg"
+  },
+  {
+    "id": "fisher-college",
+    "name": "Fisher College",
+    "logo": "logos/fisher-college.png"
+  },
+  {
+    "id": "five-fears",
+    "name": "Five Fears",
+    "logo": "logos/five-fears.png"
+  },
+  {
+    "id": "flare-esports",
+    "name": "Flare Esports",
+    "logo": "logos/flare-esports.png"
+  },
+  {
+    "id": "flashes-of-brilliance",
+    "name": "Flashes of Brilliance",
+    "logo": "logos/flashes-of-brilliance.png"
+  },
+  {
+    "id": "flight",
+    "name": "Flight",
+    "logo": "logos/flight.png"
+  },
+  {
+    "id": "flipflop-tactics",
+    "name": "FlipFlop Tactics",
+    "logo": "logos/flipflop-tactics.png"
+  },
+  {
+    "id": "flipsid3-tactics",
+    "name": "FlipSid3 Tactics",
+    "logo": "logos/flipsid3-tactics.png"
+  },
+  {
+    "id": "flomp-resont",
+    "name": "Flomp Resont",
+    "logo": "logos/flomp-resont.png"
+  },
+  {
+    "id": "flyback-esports",
+    "name": "FlyBack eSports",
+    "logo": "logos/flyback-esports.png"
+  },
+  {
+    "id": "flyquest",
+    "name": "FlyQuest",
+    "logo": "logos/flyquest.png"
+  },
+  {
+    "id": "fn",
+    "name": "FN",
+    "logo": "logos/fn.png"
+  },
+  {
+    "id": "fnatic",
+    "name": "Fnatic",
+    "logo": "logos/fnatic.png"
+  },
+  {
+    "id": "foouls",
+    "name": "Foouls",
+    "logo": "logos/foouls.png"
+  },
+  {
+    "id": "forbidden-gaming",
+    "name": "Forbidden Gaming",
+    "logo": "logos/forbidden-gaming.png"
+  },
+  {
+    "id": "forkidden",
+    "name": "Forkidden",
+    "logo": null
+  },
+  {
+    "id": "fortnite-flick",
+    "name": "Fortnite Flick",
+    "logo": null
+  },
+  {
+    "id": "frakture",
+    "name": "Frakture",
+    "logo": "logos/frakture.png"
+  },
+  {
+    "id": "france",
+    "name": "France",
+    "logo": "logos/france.svg"
+  },
+  {
+    "id": "freedom",
+    "name": "Freedom",
+    "logo": null
+  },
+  {
+    "id": "freestylers-in-disguise",
+    "name": "Freestylers in Disguise",
+    "logo": "logos/freestylers-in-disguise.png"
+  },
+  {
+    "id": "french-class",
+    "name": "French class",
+    "logo": "logos/french-class.png"
+  },
+  {
+    "id": "from-the-air",
+    "name": "From The Air!",
+    "logo": null
+  },
+  {
+    "id": "frontline",
+    "name": "Frontline",
+    "logo": "logos/frontline.png"
+  },
+  {
+    "id": "full-metal-gaming",
+    "name": "Full Metal Gaming",
+    "logo": "logos/full-metal-gaming.png"
+  },
+  {
+    "id": "furia",
+    "name": "FURIA",
+    "logo": "logos/furia.png"
+  },
+  {
+    "id": "fury",
+    "name": "FURY",
+    "logo": "logos/fury.png"
+  },
+  {
+    "id": "fut-esports",
+    "name": "FUT Esports",
+    "logo": "logos/fut-esports.png"
+  },
+  {
+    "id": "f-chse-berlin-esports",
+    "name": "Füchse Berlin Esports",
+    "logo": "logos/f-chse-berlin-esports.png"
+  },
+  {
+    "id": "g-a-s",
+    "name": "G.A.S.",
+    "logo": null
+  },
+  {
+    "id": "g1",
+    "name": "G1",
+    "logo": "logos/g1.png"
+  },
+  {
+    "id": "g2-esports",
+    "name": "G2 Esports",
+    "logo": "logos/g2-esports.png"
+  },
+  {
+    "id": "gaimin-gladiators",
+    "name": "Gaimin Gladiators",
+    "logo": "logos/gaimin-gladiators.png"
+  },
+  {
+    "id": "galaxy-bang",
+    "name": "Galaxy Bang",
+    "logo": null
+  },
+  {
+    "id": "galaxy-racer",
+    "name": "Galaxy Racer",
+    "logo": "logos/galaxy-racer.png"
+  },
+  {
+    "id": "gale-force-esports",
+    "name": "Gale Force eSports",
+    "logo": "logos/gale-force-esports.png"
+  },
+  {
+    "id": "game-changers",
+    "name": "Game changers",
+    "logo": null
+  },
+  {
+    "id": "game-fist",
+    "name": "Game Fist",
+    "logo": "logos/game-fist.png"
+  },
+  {
+    "id": "gameroos-xd",
+    "name": "Gameroos XD",
+    "logo": "logos/gameroos-xd.png"
+  },
+  {
+    "id": "gameup",
+    "name": "GameUp",
+    "logo": "logos/gameup.png"
+  },
+  {
+    "id": "gameward",
+    "name": "GameWard",
+    "logo": "logos/gameward.png"
+  },
+  {
+    "id": "gaming-gamers",
+    "name": "Gaming Gamers",
+    "logo": "logos/gaming-gamers.png"
+  },
+  {
+    "id": "gartenh-ttengang",
+    "name": "GartenHüttenGang",
+    "logo": "logos/gartenh-ttengang.png"
+  },
+  {
+    "id": "gates-of-olympus",
+    "name": "Gates of Olympus",
+    "logo": null
+  },
+  {
+    "id": "geekay-esports",
+    "name": "Geekay Esports",
+    "logo": "logos/geekay-esports.png"
+  },
+  {
+    "id": "gen-g-mobil1-racing",
+    "name": "Gen.G Mobil1 Racing",
+    "logo": "logos/gen-g-mobil1-racing.png"
+  },
+  {
+    "id": "genesis",
+    "name": "Genesis",
+    "logo": "logos/genesis.png"
+  },
+  {
+    "id": "gentle-mates",
+    "name": "Gentle Mates",
+    "logo": "logos/gentle-mates.png"
+  },
+  {
+    "id": "gentlebench",
+    "name": "GentleBench",
+    "logo": null
+  },
+  {
+    "id": "gentlemen",
+    "name": "Gentlemen",
+    "logo": "logos/gentlemen.png"
+  },
+  {
+    "id": "german-amigos",
+    "name": "German Amigos",
+    "logo": "logos/german-amigos.png"
+  },
+  {
+    "id": "german-hermanos",
+    "name": "German Hermanos",
+    "logo": null
+  },
+  {
+    "id": "german-mountain-goats",
+    "name": "German Mountain Goats",
+    "logo": null
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "logo": "logos/germany.svg"
+  },
+  {
+    "id": "ghost-gaming",
+    "name": "Ghost Gaming",
+    "logo": "logos/ghost-gaming.png"
+  },
+  {
+    "id": "giants-gaming",
+    "name": "Giants Gaming",
+    "logo": "logos/giants-gaming.png"
+  },
+  {
+    "id": "gigaguys",
+    "name": "GigaGuys",
+    "logo": null
+  },
+  {
+    "id": "girls",
+    "name": "Girls",
+    "logo": "logos/girls.png"
+  },
+  {
+    "id": "glacial",
+    "name": "Glacial",
+    "logo": null
+  },
+  {
+    "id": "glfty-mode",
+    "name": "Glfty Mode",
+    "logo": null
+  },
+  {
+    "id": "glory4builders",
+    "name": "Glory4Builders",
+    "logo": "logos/glory4builders.png"
+  },
+  {
+    "id": "goat-gaming",
+    "name": "Goat Gaming",
+    "logo": "logos/goat-gaming.png"
+  },
+  {
+    "id": "god-speed",
+    "name": "God Speed",
+    "logo": "logos/god-speed.png"
+  },
+  {
+    "id": "godalions",
+    "name": "Godalions",
+    "logo": "logos/godalions.png"
+  },
+  {
+    "id": "godfidence",
+    "name": "Godfidence",
+    "logo": "logos/godfidence.png"
+  },
+  {
+    "id": "godsent",
+    "name": "GODSENT",
+    "logo": "logos/godsent.png"
+  },
+  {
+    "id": "godsmilla-s-team",
+    "name": "Godsmilla's Team",
+    "logo": "logos/godsmilla-s-team.png"
+  },
+  {
+    "id": "goldbridge-ball",
+    "name": "Goldbridge Ball",
+    "logo": null
+  },
+  {
+    "id": "good-and-useful",
+    "name": "Good and Useful",
+    "logo": null
+  },
+  {
+    "id": "goskilla",
+    "name": "Goskilla",
+    "logo": "logos/goskilla.png"
+  },
+  {
+    "id": "gotham-city",
+    "name": "Gotham City",
+    "logo": "logos/gotham-city.png"
+  },
+  {
+    "id": "green-falcons",
+    "name": "Green Falcons",
+    "logo": "logos/green-falcons.png"
+  },
+  {
+    "id": "gremlins",
+    "name": "Gremlins",
+    "logo": null
+  },
+  {
+    "id": "griddygoose",
+    "name": "GriddyGoose",
+    "logo": "logos/griddygoose.png"
+  },
+  {
+    "id": "gridserve-resolve",
+    "name": "GRIDSERVE Resolve",
+    "logo": "logos/gridserve-resolve.png"
+  },
+  {
+    "id": "gros-noobz",
+    "name": "Gros Noobz",
+    "logo": "logos/gros-noobz.png"
+  },
+  {
+    "id": "ground-zero-gaming",
+    "name": "Ground Zero Gaming",
+    "logo": "logos/ground-zero-gaming.png"
+  },
+  {
+    "id": "guess-who",
+    "name": "Guess Who",
+    "logo": null
+  },
+  {
+    "id": "guidance-gaming",
+    "name": "Guidance Gaming",
+    "logo": "logos/guidance-gaming.png"
+  },
+  {
+    "id": "guild-esports",
+    "name": "Guild Esports",
+    "logo": "logos/guild-esports.png"
+  },
+  {
+    "id": "guppies",
+    "name": "Guppies",
+    "logo": null
+  },
+  {
+    "id": "hairbrush",
+    "name": "Hairbrush",
+    "logo": null
+  },
+  {
+    "id": "hard-on-colliders",
+    "name": "Hard-On Colliders",
+    "logo": "logos/hard-on-colliders.png"
+  },
+  {
+    "id": "hatriki-en-bernabel",
+    "name": "HATRIKI EN BERNABEL",
+    "logo": "logos/hatriki-en-bernabel.png"
+  },
+  {
+    "id": "hc-esports",
+    "name": "Hc eSports",
+    "logo": "logos/hc-esports.png"
+  },
+  {
+    "id": "heartless",
+    "name": "Heartless",
+    "logo": null
+  },
+  {
+    "id": "heet",
+    "name": "HEET",
+    "logo": "logos/heet.png"
+  },
+  {
+    "id": "helfie-chiefs",
+    "name": "Helfie Chiefs",
+    "logo": "logos/helfie-chiefs.png"
+  },
+  {
+    "id": "hello",
+    "name": "hello",
+    "logo": null
+  },
+  {
+    "id": "hereford-fc",
+    "name": "Hereford FC",
+    "logo": "logos/hereford-fc.png"
+  },
+  {
+    "id": "hero-base",
+    "name": "Hero Base",
+    "logo": "logos/hero-base.png"
+  },
+  {
+    "id": "heroic",
+    "name": "HEROIC",
+    "logo": "logos/heroic.png"
+  },
+  {
+    "id": "hey-bro",
+    "name": "Hey Bro",
+    "logo": "logos/hey-bro.png"
+  },
+  {
+    "id": "high-coast-esports",
+    "name": "High Coast Esports",
+    "logo": "logos/high-coast-esports.png"
+  },
+  {
+    "id": "hogan-mode",
+    "name": "Hogan Mode",
+    "logo": "logos/hogan-mode.png"
+  },
+  {
+    "id": "hollywood-hammers",
+    "name": "Hollywood Hammers",
+    "logo": "logos/hollywood-hammers.png"
+  },
+  {
+    "id": "honduras",
+    "name": "Honduras",
+    "logo": null
+  },
+  {
+    "id": "howard",
+    "name": "Howard",
+    "logo": "logos/howard.png"
+  },
+  {
+    "id": "humberto",
+    "name": "humberto",
+    "logo": null
+  },
+  {
+    "id": "ibuypower",
+    "name": "iBUYPOWER",
+    "logo": "logos/ibuypower.png"
+  },
+  {
+    "id": "icon-esports",
+    "name": "ICON Esports",
+    "logo": "logos/icon-esports.png"
+  },
+  {
+    "id": "illusion",
+    "name": "Illusion",
+    "logo": "logos/illusion.png"
+  },
+  {
+    "id": "incognito",
+    "name": "Incognito",
+    "logo": "logos/incognito.png"
+  },
+  {
+    "id": "indonesia",
+    "name": "Indonesia",
+    "logo": "logos/indonesia.svg"
+  },
+  {
+    "id": "infinite-shots",
+    "name": "Infinite Shots",
+    "logo": "logos/infinite-shots.png"
+  },
+  {
+    "id": "insomnia-esports",
+    "name": "Insomnia eSports",
+    "logo": "logos/insomnia-esports.png"
+  },
+  {
+    "id": "integrity-esports",
+    "name": "Integrity Esports",
+    "logo": "logos/integrity-esports.png"
+  },
+  {
+    "id": "intellectuals",
+    "name": "Intellectuals",
+    "logo": "logos/intellectuals.png"
+  },
+  {
+    "id": "intz",
+    "name": "INTZ",
+    "logo": "logos/intz.png"
+  },
+  {
+    "id": "irie-legacy",
+    "name": "Irie Legacy",
+    "logo": "logos/irie-legacy.png"
+  },
+  {
+    "id": "iris",
+    "name": "Iris",
+    "logo": "logos/iris.png"
+  },
+  {
+    "id": "italy",
+    "name": "Italy",
+    "logo": "logos/italy.svg"
+  },
+  {
+    "id": "jalada",
+    "name": "Jalada",
+    "logo": "logos/jalada.png"
+  },
+  {
+    "id": "jamal-jabary",
+    "name": "Jamal Jabary",
+    "logo": "logos/jamal-jabary.png"
+  },
+  {
+    "id": "james-cheese",
+    "name": "James Cheese",
+    "logo": null
+  },
+  {
+    "id": "jger",
+    "name": "JGER",
+    "logo": null
+  },
+  {
+    "id": "jimmah-s-mad-dogs",
+    "name": "Jimmah's Mad Dogs",
+    "logo": null
+  },
+  {
+    "id": "jitans",
+    "name": "JITANS",
+    "logo": null
+  },
+  {
+    "id": "jjrox",
+    "name": "JJROX",
+    "logo": "logos/jjrox.png"
+  },
+  {
+    "id": "jobless",
+    "name": "Jobless",
+    "logo": null
+  },
+  {
+    "id": "joga-bonito",
+    "name": "Joga Bonito",
+    "logo": null
+  },
+  {
+    "id": "juiced",
+    "name": "Juiced",
+    "logo": "logos/juiced.png"
+  },
+  {
+    "id": "juicers",
+    "name": "Juicers",
+    "logo": "logos/juicers.png"
+  },
+  {
+    "id": "jungle-juicers",
+    "name": "Jungle Juicers",
+    "logo": "logos/jungle-juicers.png"
+  },
+  {
+    "id": "just-a-minute-gaming",
+    "name": "Just a Minute Gaming",
+    "logo": "logos/just-a-minute-gaming.png"
+  },
+  {
+    "id": "ka-pow",
+    "name": "Ka-Pow",
+    "logo": "logos/ka-pow.png"
+  },
+  {
+    "id": "kaizen",
+    "name": "Kaizen",
+    "logo": null
+  },
+  {
+    "id": "kaka-s-minions",
+    "name": "Kaka's Minions",
+    "logo": null
+  },
+  {
+    "id": "kamoco",
+    "name": "Kamoco",
+    "logo": null
+  },
+  {
+    "id": "karen",
+    "name": "Karen",
+    "logo": null
+  },
+  {
+    "id": "karmine-corp",
+    "name": "Karmine Corp",
+    "logo": "logos/karmine-corp.png"
+  },
+  {
+    "id": "kaydop-corp",
+    "name": "Kaydop Corp",
+    "logo": null
+  },
+  {
+    "id": "kbt",
+    "name": "kbt",
+    "logo": null
+  },
+  {
+    "id": "keep-calm-and-improve",
+    "name": "Keep calm and improve",
+    "logo": null
+  },
+  {
+    "id": "kibbgang",
+    "name": "Kibbgang",
+    "logo": null
+  },
+  {
+    "id": "kings-of-urban",
+    "name": "Kings of Urban",
+    "logo": "logos/kings-of-urban.png"
+  },
+  {
+    "id": "kinotrope-gaming",
+    "name": "KINOTROPE gaming",
+    "logo": "logos/kinotrope-gaming.png"
+  },
+  {
+    "id": "kling",
+    "name": "Kling",
+    "logo": null
+  },
+  {
+    "id": "knights",
+    "name": "Knights",
+    "logo": "logos/knights.png"
+  },
+  {
+    "id": "kovya-godfidence",
+    "name": "Kovya Godfidence",
+    "logo": "logos/kovya-godfidence.png"
+  },
+  {
+    "id": "krakenseas",
+    "name": "KrakenSeas",
+    "logo": "logos/krakenseas.png"
+  },
+  {
+    "id": "krn",
+    "name": "KRN",
+    "logo": "logos/krn.png"
+  },
+  {
+    "id": "kr-esports",
+    "name": "KRÜ Esports",
+    "logo": "logos/kr-esports.png"
+  },
+  {
+    "id": "kuwait",
+    "name": "Kuwait",
+    "logo": "logos/kuwait.svg"
+  },
+  {
+    "id": "kuxir-s-minions",
+    "name": "Kuxir's Minions",
+    "logo": "logos/kuxir-s-minions.png"
+  },
+  {
+    "id": "kyle-mode",
+    "name": "Kyle Mode",
+    "logo": "logos/kyle-mode.png"
+  },
+  {
+    "id": "l-antique-esport",
+    "name": "L'Antique Esport",
+    "logo": "logos/l-antique-esport.png"
+  },
+  {
+    "id": "l-c-t",
+    "name": "L.C.T",
+    "logo": "logos/l-c-t.png"
+  },
+  {
+    "id": "la-familia",
+    "name": "La Familia",
+    "logo": "logos/la-familia.png"
+  },
+  {
+    "id": "la-france-cosplay",
+    "name": "La France Cosplay",
+    "logo": "logos/la-france-cosplay.png"
+  },
+  {
+    "id": "lachinio-s-team",
+    "name": "Lachinio's team",
+    "logo": null
+  },
+  {
+    "id": "laqu-mica-esports",
+    "name": "LaQuímica eSports",
+    "logo": "logos/laqu-mica-esports.png"
+  },
+  {
+    "id": "las-vegas-inferno",
+    "name": "Las Vegas Inferno",
+    "logo": "logos/las-vegas-inferno.png"
+  },
+  {
+    "id": "lausanne-sport-esports",
+    "name": "Lausanne-Sport Esports",
+    "logo": "logos/lausanne-sport-esports.png"
+  },
+  {
+    "id": "ldl",
+    "name": "LDL",
+    "logo": null
+  },
+  {
+    "id": "leftovers",
+    "name": "Leftovers",
+    "logo": "logos/leftovers.png"
+  },
+  {
+    "id": "legacy",
+    "name": "Legacy",
+    "logo": "logos/legacy.png"
+  },
+  {
+    "id": "legacy-esports",
+    "name": "Legacy Esports",
+    "logo": "logos/legacy-esports.png"
+  },
+  {
+    "id": "les-coquille",
+    "name": "Les Coquille",
+    "logo": null
+  },
+  {
+    "id": "lf-org",
+    "name": "LF ORG",
+    "logo": "logos/lf-org.png"
+  },
+  {
+    "id": "lgm",
+    "name": "LGM",
+    "logo": "logos/lgm.png"
+  },
+  {
+    "id": "libertas",
+    "name": "Libertas",
+    "logo": "logos/libertas.png"
+  },
+  {
+    "id": "lil-step-bros",
+    "name": "Lil Step Bros",
+    "logo": "logos/lil-step-bros.png"
+  },
+  {
+    "id": "limitless",
+    "name": "Limitless",
+    "logo": "logos/limitless.png"
+  },
+  {
+    "id": "linked-up",
+    "name": "Linked Up",
+    "logo": "logos/linked-up.png"
+  },
+  {
+    "id": "little-giants",
+    "name": "Little Giants",
+    "logo": "logos/little-giants.png"
+  },
+  {
+    "id": "little-wamens",
+    "name": "Little Wamens",
+    "logo": "logos/little-wamens.png"
+  },
+  {
+    "id": "loco",
+    "name": "Loco",
+    "logo": "logos/loco.png"
+  },
+  {
+    "id": "locusts",
+    "name": "Locusts",
+    "logo": "logos/locusts.png"
+  },
+  {
+    "id": "lokomotiv-esports",
+    "name": "Lokomotiv eSports",
+    "logo": "logos/lokomotiv-esports.png"
+  },
+  {
+    "id": "london-esports",
+    "name": "London Esports",
+    "logo": "logos/london-esports.png"
+  },
+  {
+    "id": "looking-for-organization",
+    "name": "Looking for Organization",
+    "logo": null
+  },
+  {
+    "id": "los-amigos",
+    "name": "Los Amigos",
+    "logo": "logos/los-amigos.png"
+  },
+  {
+    "id": "los-angeles-signal",
+    "name": "Los Angeles Signal",
+    "logo": "logos/los-angeles-signal.png"
+  },
+  {
+    "id": "los-hombres-de-paco",
+    "name": "Los hombres de Paco",
+    "logo": "logos/los-hombres-de-paco.png"
+  },
+  {
+    "id": "los-leones-de-montepinar",
+    "name": "Los Leones de Montepinar",
+    "logo": null
+  },
+  {
+    "id": "lost-legion-giants",
+    "name": "Lost Legion Giants",
+    "logo": "logos/lost-legion-giants.png"
+  },
+  {
+    "id": "lotus-8-esports",
+    "name": "Lotus 8 Esports",
+    "logo": "logos/lotus-8-esports.png"
+  },
+  {
+    "id": "lotus-esports",
+    "name": "Lotus eSports",
+    "logo": "logos/lotus-esports.png"
+  },
+  {
+    "id": "loud",
+    "name": "LOUD",
+    "logo": "logos/loud.png"
+  },
+  {
+    "id": "louisiana-state-university",
+    "name": "Louisiana State University",
+    "logo": "logos/louisiana-state-university.png"
+  },
+  {
+    "id": "lowkenuinely",
+    "name": "Lowkenuinely",
+    "logo": null
+  },
+  {
+    "id": "lowkey-esports",
+    "name": "Lowkey Esports",
+    "logo": "logos/lowkey-esports.png"
+  },
+  {
+    "id": "lucky-bounce",
+    "name": "Lucky Bounce",
+    "logo": "logos/lucky-bounce.png"
+  },
+  {
+    "id": "luminance",
+    "name": "Luminance",
+    "logo": "logos/luminance.png"
+  },
+  {
+    "id": "luminosity-gaming",
+    "name": "Luminosity Gaming",
+    "logo": "logos/luminosity-gaming.png"
+  },
+  {
+    "id": "luna-galaxy",
+    "name": "Luna Galaxy",
+    "logo": "logos/luna-galaxy.png"
+  },
+  {
+    "id": "m80",
+    "name": "M80",
+    "logo": "logos/m80.png"
+  },
+  {
+    "id": "madcap",
+    "name": "MadCap",
+    "logo": "logos/madcap.png"
+  },
+  {
+    "id": "mads-og-aldin",
+    "name": "Mads og Aldin",
+    "logo": null
+  },
+  {
+    "id": "maestros-del-esf-rico",
+    "name": "Maestros Del Esférico",
+    "logo": "logos/maestros-del-esf-rico.png"
+  },
+  {
+    "id": "magnifico",
+    "name": "Magnifico",
+    "logo": "logos/magnifico.png"
+  },
+  {
+    "id": "magnolia",
+    "name": "Magnolia",
+    "logo": "logos/magnolia.png"
+  },
+  {
+    "id": "malaysia",
+    "name": "Malaysia",
+    "logo": "logos/malaysia.svg"
+  },
+  {
+    "id": "manchester-city-esports",
+    "name": "Manchester City Esports",
+    "logo": "logos/manchester-city-esports.png"
+  },
+  {
+    "id": "manhattan",
+    "name": "Manhattan",
+    "logo": "logos/manhattan.png"
+  },
+  {
+    "id": "maryville-university",
+    "name": "Maryville University",
+    "logo": "logos/maryville-university.png"
+  },
+  {
+    "id": "mastermindsgc",
+    "name": "MastermindsGC",
+    "logo": "logos/mastermindsgc.png"
+  },
+  {
+    "id": "mate-y-tapa",
+    "name": "Mate y Tapa",
+    "logo": null
+  },
+  {
+    "id": "mats-mads-tfue",
+    "name": "Mats Mads Tfue",
+    "logo": null
+  },
+  {
+    "id": "mats-og-mechanics",
+    "name": "Mats og Mechanics",
+    "logo": null
+  },
+  {
+    "id": "may-contain-nuts",
+    "name": "May contain nuts",
+    "logo": null
+  },
+  {
+    "id": "mcon-esports",
+    "name": "mCon esports",
+    "logo": "logos/mcon-esports.png"
+  },
+  {
+    "id": "mechanicals",
+    "name": "Mechanicals",
+    "logo": null
+  },
+  {
+    "id": "melon-squad",
+    "name": "Melon Squad",
+    "logo": "logos/melon-squad.png"
+  },
+  {
+    "id": "merge-esports",
+    "name": "Merge Esports",
+    "logo": "logos/merge-esports.png"
+  },
+  {
+    "id": "meteor-storm",
+    "name": "Meteor Storm",
+    "logo": "logos/meteor-storm.png"
+  },
+  {
+    "id": "method",
+    "name": "Method",
+    "logo": "logos/method.png"
+  },
+  {
+    "id": "mexico",
+    "name": "Mexico",
+    "logo": "logos/mexico.svg"
+  },
+  {
+    "id": "mga-esport",
+    "name": "MGA Esport",
+    "logo": "logos/mga-esport.png"
+  },
+  {
+    "id": "mge",
+    "name": "MGE",
+    "logo": null
+  },
+  {
+    "id": "mibr",
+    "name": "MIBR",
+    "logo": "logos/mibr.png"
+  },
+  {
+    "id": "millennial-times-gaming",
+    "name": "Millennial Times Gaming",
+    "logo": "logos/millennial-times-gaming.png"
+  },
+  {
+    "id": "mind-frequency",
+    "name": "Mind Frequency",
+    "logo": null
+  },
+  {
+    "id": "mindfreak",
+    "name": "Mindfreak",
+    "logo": "logos/mindfreak.png"
+  },
+  {
+    "id": "minkz-gaming",
+    "name": "MINKZ Gaming",
+    "logo": "logos/minkz-gaming.png"
+  },
+  {
+    "id": "mirage",
+    "name": "Mirage",
+    "logo": "logos/mirage.png"
+  },
+  {
+    "id": "misfits-gaming",
+    "name": "Misfits Gaming",
+    "logo": "logos/misfits-gaming.png"
+  },
+  {
+    "id": "mmt",
+    "name": "MMT",
+    "logo": null
+  },
+  {
+    "id": "mock-s-pogchamps",
+    "name": "Mock's PogChamps",
+    "logo": null
+  },
+  {
+    "id": "mock-it-esports",
+    "name": "Mock-It Esports",
+    "logo": "logos/mock-it-esports.png"
+  },
+  {
+    "id": "mock-it-esports-eu",
+    "name": "Mock-It eSports EU",
+    "logo": "logos/mock-it-esports-eu.png"
+  },
+  {
+    "id": "mock-it-esports-na",
+    "name": "Mock-It eSports NA",
+    "logo": "logos/mock-it-esports-na.png"
+  },
+  {
+    "id": "moist-esports",
+    "name": "Moist Esports",
+    "logo": "logos/moist-esports.png"
+  },
+  {
+    "id": "momentum",
+    "name": "Momentum",
+    "logo": "logos/momentum.png"
+  },
+  {
+    "id": "momentum-shifters",
+    "name": "Momentum Shifters",
+    "logo": "logos/momentum-shifters.png"
+  },
+  {
+    "id": "monaco-esports",
+    "name": "Monaco Esports",
+    "logo": "logos/monaco-esports.png"
+  },
+  {
+    "id": "monkey-business",
+    "name": "Monkey Business",
+    "logo": "logos/monkey-business.png"
+  },
+  {
+    "id": "monkeys",
+    "name": "Monkeys",
+    "logo": "logos/monkeys.png"
+  },
+  {
+    "id": "monos",
+    "name": "Monos",
+    "logo": "logos/monos.png"
+  },
+  {
+    "id": "moonboots",
+    "name": "Moonboots",
+    "logo": "logos/moonboots.png"
+  },
+  {
+    "id": "moonrise",
+    "name": "Moonrise",
+    "logo": "logos/moonrise.png"
+  },
+  {
+    "id": "morekats-gaming",
+    "name": "Morekats Gaming",
+    "logo": "logos/morekats-gaming.png"
+  },
+  {
+    "id": "morocco",
+    "name": "Morocco",
+    "logo": "logos/morocco.svg"
+  },
+  {
+    "id": "motorsport",
+    "name": "Motorsport",
+    "logo": "logos/motorsport.png"
+  },
+  {
+    "id": "mouz",
+    "name": "MOUZ",
+    "logo": "logos/mouz.png"
+  },
+  {
+    "id": "movistar-koi",
+    "name": "Movistar KOI",
+    "logo": "logos/movistar-koi.png"
+  },
+  {
+    "id": "mts",
+    "name": "MTS",
+    "logo": "logos/mts.png"
+  },
+  {
+    "id": "muchdelight",
+    "name": "MuchDelight",
+    "logo": "logos/muchdelight.png"
+  },
+  {
+    "id": "mustu-fluck",
+    "name": "Mustu Fluck",
+    "logo": "logos/mustu-fluck.png"
+  },
+  {
+    "id": "myth-gaming",
+    "name": "Myth Gaming",
+    "logo": "logos/myth-gaming.png"
+  },
+  {
+    "id": "myxmg",
+    "name": "myXMG",
+    "logo": "logos/myxmg.png"
+  },
+  {
+    "id": "nameless",
+    "name": "Nameless",
+    "logo": "logos/nameless.png"
+  },
+  {
+    "id": "nameseekers",
+    "name": "Nameseekers",
+    "logo": "logos/nameseekers.png"
+  },
+  {
+    "id": "natus-vincere",
+    "name": "Natus Vincere",
+    "logo": "logos/natus-vincere.png"
+  },
+  {
+    "id": "nebulous-esports",
+    "name": "Nebulous Esports",
+    "logo": "logos/nebulous-esports.png"
+  },
+  {
+    "id": "nefarious",
+    "name": "Nefarious",
+    "logo": "logos/nefarious.png"
+  },
+  {
+    "id": "nemesis",
+    "name": "Nemesis",
+    "logo": "logos/nemesis.png"
+  },
+  {
+    "id": "netherlamericanada",
+    "name": "Netherlamericanada",
+    "logo": "logos/netherlamericanada.png"
+  },
+  {
+    "id": "netherlands",
+    "name": "Netherlands",
+    "logo": "logos/netherlands.svg"
+  },
+  {
+    "id": "never-on-target",
+    "name": "Never on Target",
+    "logo": "logos/never-on-target.png"
+  },
+  {
+    "id": "new-zealand",
+    "name": "New Zealand",
+    "logo": "logos/new-zealand.svg"
+  },
+  {
+    "id": "newjeans",
+    "name": "NewJeans",
+    "logo": null
+  },
+  {
+    "id": "next2nu-esports",
+    "name": "Next2Nu Esports",
+    "logo": "logos/next2nu-esports.png"
+  },
+  {
+    "id": "nexus-esports",
+    "name": "Nexus eSports",
+    "logo": "logos/nexus-esports.png"
+  },
+  {
+    "id": "night-raid-esports",
+    "name": "Night Raid Esports",
+    "logo": "logos/night-raid-esports.png"
+  },
+  {
+    "id": "nightblood-gaming",
+    "name": "Nightblood Gaming",
+    "logo": "logos/nightblood-gaming.png"
+  },
+  {
+    "id": "ninjas-in-pyjamas",
+    "name": "Ninjas in Pyjamas",
+    "logo": "logos/ninjas-in-pyjamas.png"
+  },
+  {
+    "id": "nkosi-ballers",
+    "name": "Nkosi Ballers",
+    "logo": "logos/nkosi-ballers.png"
+  },
+  {
+    "id": "no-idea",
+    "name": "No Idea",
+    "logo": null
+  },
+  {
+    "id": "no-mercy",
+    "name": "No Mercy",
+    "logo": null
+  },
+  {
+    "id": "no-mercy-esports",
+    "name": "No Mercy Esports",
+    "logo": "logos/no-mercy-esports.png"
+  },
+  {
+    "id": "no-name-team",
+    "name": "no name team",
+    "logo": null
+  },
+  {
+    "id": "noble-esports",
+    "name": "Noble esports",
+    "logo": "logos/noble-esports.png"
+  },
+  {
+    "id": "nofear-gaming",
+    "name": "NoFear Gaming",
+    "logo": "logos/nofear-gaming.png"
+  },
+  {
+    "id": "nokar-esport",
+    "name": "NOKAR Esport",
+    "logo": "logos/nokar-esport.png"
+  },
+  {
+    "id": "nomster",
+    "name": "NOMSTER",
+    "logo": "logos/nomster.png"
+  },
+  {
+    "id": "nordschleife",
+    "name": "Nordschleife",
+    "logo": "logos/nordschleife.png"
+  },
+  {
+    "id": "northern-gaming",
+    "name": "Northern Gaming",
+    "logo": null
+  },
+  {
+    "id": "northstar",
+    "name": "NORTHSTAR",
+    "logo": "logos/northstar.png"
+  },
+  {
+    "id": "northway",
+    "name": "Northway",
+    "logo": "logos/northway.png"
+  },
+  {
+    "id": "northwood-university-blue",
+    "name": "Northwood University Blue",
+    "logo": "logos/northwood-university-blue.png"
+  },
+  {
+    "id": "norway",
+    "name": "Norway",
+    "logo": "logos/norway.svg"
+  },
+  {
+    "id": "not-exposed",
+    "name": "Not Exposed",
+    "logo": "logos/not-exposed.png"
+  },
+  {
+    "id": "nova-dancers",
+    "name": "Nova Dancers",
+    "logo": null
+  },
+  {
+    "id": "novo-esports",
+    "name": "NOVO Esports",
+    "logo": "logos/novo-esports.png"
+  },
+  {
+    "id": "novus-aevi",
+    "name": "Novus Aevi",
+    "logo": "logos/novus-aevi.png"
+  },
+  {
+    "id": "nox-gaming",
+    "name": "NoX Gaming",
+    "logo": "logos/nox-gaming.png"
+  },
+  {
+    "id": "nrg",
+    "name": "NRG",
+    "logo": "logos/nrg.png"
+  },
+  {
+    "id": "nubbles",
+    "name": "Nubbles",
+    "logo": "logos/nubbles.png"
+  },
+  {
+    "id": "numb-thumb-dumb",
+    "name": "Numb thumb dumb",
+    "logo": null
+  },
+  {
+    "id": "nxt",
+    "name": "NXT",
+    "logo": "logos/nxt.png"
+  },
+  {
+    "id": "odyssey",
+    "name": "Odyssey",
+    "logo": null
+  },
+  {
+    "id": "og",
+    "name": "OG",
+    "logo": "logos/og.png"
+  },
+  {
+    "id": "ohmydog",
+    "name": "OhMyDog",
+    "logo": "logos/ohmydog.png"
+  },
+  {
+    "id": "oida",
+    "name": "oida",
+    "logo": "logos/oida.png"
+  },
+  {
+    "id": "old-dog-new-tricks",
+    "name": "Old Dog New Tricks",
+    "logo": null
+  },
+  {
+    "id": "old-farts",
+    "name": "Old Farts",
+    "logo": null
+  },
+  {
+    "id": "omni-nation",
+    "name": "Omni Nation",
+    "logo": "logos/omni-nation.png"
+  },
+  {
+    "id": "onslaught-esports",
+    "name": "Onslaught eSports",
+    "logo": "logos/onslaught-esports.png"
+  },
+  {
+    "id": "onyx-ravens",
+    "name": "Onyx Ravens",
+    "logo": "logos/onyx-ravens.png"
+  },
+  {
+    "id": "opp-block",
+    "name": "Opp Block",
+    "logo": null
+  },
+  {
+    "id": "optic-gaming",
+    "name": "OpTic Gaming",
+    "logo": "logos/optic-gaming.png"
+  },
+  {
+    "id": "orange-creamsicle",
+    "name": "Orange Creamsicle",
+    "logo": "logos/orange-creamsicle.png"
+  },
+  {
+    "id": "orbit-esports",
+    "name": "Orbit eSports",
+    "logo": "logos/orbit-esports.png"
+  },
+  {
+    "id": "order",
+    "name": "ORDER",
+    "logo": "logos/order.png"
+  },
+  {
+    "id": "orgless",
+    "name": "Orgless",
+    "logo": "logos/orgless.png"
+  },
+  {
+    "id": "orlando-pirates-exdee",
+    "name": "Orlando Pirates Exdee",
+    "logo": "logos/orlando-pirates-exdee.png"
+  },
+  {
+    "id": "oryx-esports",
+    "name": "ORYX Esports",
+    "logo": "logos/oryx-esports.png"
+  },
+  {
+    "id": "os-fracassados",
+    "name": "Os Fracassados",
+    "logo": null
+  },
+  {
+    "id": "oserv-esport",
+    "name": "Oserv Esport",
+    "logo": "logos/oserv-esport.png"
+  },
+  {
+    "id": "osh-tekk-warriors",
+    "name": "Osh-Tekk Warriors",
+    "logo": "logos/osh-tekk-warriors.png"
+  },
+  {
+    "id": "ostyn",
+    "name": "ostyn",
+    "logo": null
+  },
+  {
+    "id": "out-of-order",
+    "name": "Out of Order",
+    "logo": "logos/out-of-order.png"
+  },
+  {
+    "id": "out-of-skill",
+    "name": "Out of Skill",
+    "logo": null
+  },
+  {
+    "id": "out-of-style",
+    "name": "Out of Style",
+    "logo": "logos/out-of-style.png"
+  },
+  {
+    "id": "outlying",
+    "name": "Outlying",
+    "logo": null
+  },
+  {
+    "id": "overlooked",
+    "name": "Overlooked",
+    "logo": "logos/overlooked.png"
+  },
+  {
+    "id": "overt",
+    "name": "Overt",
+    "logo": "logos/overt.png"
+  },
+  {
+    "id": "owl-esports",
+    "name": "OWL Esports",
+    "logo": "logos/owl-esports.png"
+  },
+  {
+    "id": "oxey-team",
+    "name": "Oxey Team",
+    "logo": "logos/oxey-team.png"
+  },
+  {
+    "id": "oxygen-esports",
+    "name": "Oxygen Esports",
+    "logo": "logos/oxygen-esports.png"
+  },
+  {
+    "id": "pale-horse-esports",
+    "name": "Pale Horse eSports",
+    "logo": "logos/pale-horse-esports.png"
+  },
+  {
+    "id": "parabellum-esports",
+    "name": "Parabellum Esports",
+    "logo": "logos/parabellum-esports.png"
+  },
+  {
+    "id": "paradigm",
+    "name": "Paradigm",
+    "logo": null
+  },
+  {
+    "id": "pcs-stride",
+    "name": "PCS Stride",
+    "logo": "logos/pcs-stride.png"
+  },
+  {
+    "id": "pdhm-gaming",
+    "name": "PDHM Gaming",
+    "logo": "logos/pdhm-gaming.png"
+  },
+  {
+    "id": "peacehater",
+    "name": "PeaceHater",
+    "logo": "logos/peacehater.png"
+  },
+  {
+    "id": "penta",
+    "name": "PENTA",
+    "logo": "logos/penta.png"
+  },
+  {
+    "id": "pepegashake",
+    "name": "pepegashake",
+    "logo": null
+  },
+  {
+    "id": "pepepitos-canyons",
+    "name": "Pepepitos Canyons",
+    "logo": "logos/pepepitos-canyons.png"
+  },
+  {
+    "id": "perfect-storm",
+    "name": "Perfect Storm",
+    "logo": null
+  },
+  {
+    "id": "physicists",
+    "name": "Physicists",
+    "logo": "logos/physicists.png"
+  },
+  {
+    "id": "pierats",
+    "name": "PieRats",
+    "logo": null
+  },
+  {
+    "id": "pikete-gal-ctico",
+    "name": "Pikete Galáctico",
+    "logo": null
+  },
+  {
+    "id": "pink-hair-fan-club",
+    "name": "Pink Hair Fan Club",
+    "logo": null
+  },
+  {
+    "id": "pioneers",
+    "name": "Pioneers",
+    "logo": "logos/pioneers.png"
+  },
+  {
+    "id": "pirots-3",
+    "name": "Pirots 3",
+    "logo": null
+  },
+  {
+    "id": "pittsburgh-embers",
+    "name": "Pittsburgh Embers",
+    "logo": "logos/pittsburgh-embers.png"
+  },
+  {
+    "id": "placeholders",
+    "name": "Placeholders",
+    "logo": null
+  },
+  {
+    "id": "playmakers",
+    "name": "PlayMakers",
+    "logo": "logos/playmakers.png"
+  },
+  {
+    "id": "plot-twist",
+    "name": "Plot Twist",
+    "logo": "logos/plot-twist.png"
+  },
+  {
+    "id": "pocket-aces",
+    "name": "Pocket Aces",
+    "logo": "logos/pocket-aces.png"
+  },
+  {
+    "id": "poco-asfalto",
+    "name": "Poco asfalto",
+    "logo": null
+  },
+  {
+    "id": "pog",
+    "name": "Pog",
+    "logo": null
+  },
+  {
+    "id": "poison-bullets",
+    "name": "Poison Bullets",
+    "logo": null
+  },
+  {
+    "id": "pokemaniacs",
+    "name": "Pokemaniacs",
+    "logo": null
+  },
+  {
+    "id": "pop",
+    "name": "POP",
+    "logo": null
+  },
+  {
+    "id": "precision-z",
+    "name": "Precision Z",
+    "logo": "logos/precision-z.png"
+  },
+  {
+    "id": "private-esports",
+    "name": "Private eSports",
+    "logo": "logos/private-esports.png"
+  },
+  {
+    "id": "proficiencyhq",
+    "name": "ProficiencyHQ",
+    "logo": "logos/proficiencyhq.png"
+  },
+  {
+    "id": "project-delacruz",
+    "name": "Project Delacruz",
+    "logo": "logos/project-delacruz.png"
+  },
+  {
+    "id": "project-s",
+    "name": "Project S",
+    "logo": null
+  },
+  {
+    "id": "psg-esports",
+    "name": "PSG Esports",
+    "logo": "logos/psg-esports.png"
+  },
+  {
+    "id": "psg-tundra",
+    "name": "PSG TUNDRA",
+    "logo": "logos/psg-tundra.png"
+  },
+  {
+    "id": "pulse",
+    "name": "Pulse",
+    "logo": "logos/pulse.png"
+  },
+  {
+    "id": "pushing-gaming",
+    "name": "Pushing Gaming",
+    "logo": "logos/pushing-gaming.png"
+  },
+  {
+    "id": "pwr",
+    "name": "PWR",
+    "logo": "logos/pwr.png"
+  },
+  {
+    "id": "quadrant",
+    "name": "Quadrant",
+    "logo": "logos/quadrant.png"
+  },
+  {
+    "id": "question-marks",
+    "name": "Question Marks",
+    "logo": "logos/question-marks.png"
+  },
+  {
+    "id": "r-ot-gaming",
+    "name": "R!OT Gaming",
+    "logo": "logos/r-ot-gaming.png"
+  },
+  {
+    "id": "r8-esports",
+    "name": "R8 Esports",
+    "logo": "logos/r8-esports.png"
+  },
+  {
+    "id": "radiance",
+    "name": "Radiance",
+    "logo": "logos/radiance.png"
+  },
+  {
+    "id": "rafha-esports",
+    "name": "Rafha Esports",
+    "logo": "logos/rafha-esports.png"
+  },
+  {
+    "id": "raging-racoons",
+    "name": "Raging Racoons",
+    "logo": null
+  },
+  {
+    "id": "rahhhhhhhh",
+    "name": "RAHHHHHHHH",
+    "logo": null
+  },
+  {
+    "id": "randoms",
+    "name": "Randoms",
+    "logo": "logos/randoms.png"
+  },
+  {
+    "id": "randy-gibbons-river-rats",
+    "name": "Randy Gibbons' River Rats",
+    "logo": "logos/randy-gibbons-river-rats.png"
+  },
+  {
+    "id": "rare-penguins",
+    "name": "Rare Penguins",
+    "logo": "logos/rare-penguins.png"
+  },
+  {
+    "id": "rat-enterprises",
+    "name": "Rat Enterprises",
+    "logo": "logos/rat-enterprises.png"
+  },
+  {
+    "id": "rbg-esports",
+    "name": "RBG Esports",
+    "logo": "logos/rbg-esports.png"
+  },
+  {
+    "id": "rcd-espanyol",
+    "name": "RCD Espanyol",
+    "logo": "logos/rcd-espanyol.png"
+  },
+  {
+    "id": "real-avil-s-esports",
+    "name": "Real Avilés eSports",
+    "logo": "logos/real-avil-s-esports.png"
+  },
+  {
+    "id": "rebel",
+    "name": "Rebel",
+    "logo": "logos/rebel.png"
+  },
+  {
+    "id": "red-devils",
+    "name": "Red Devils",
+    "logo": null
+  },
+  {
+    "id": "red-eye",
+    "name": "Red Eye",
+    "logo": "logos/red-eye.png"
+  },
+  {
+    "id": "red-reserve",
+    "name": "Red Reserve",
+    "logo": "logos/red-reserve.png"
+  },
+  {
+    "id": "redemption",
+    "name": "Redemption",
+    "logo": "logos/redemption.png"
+  },
+  {
+    "id": "redemption-esports",
+    "name": "Redemption Esports",
+    "logo": "logos/redemption-esports.png"
+  },
+  {
+    "id": "rehzzycarry",
+    "name": "rehzzycarry",
+    "logo": null
+  },
+  {
+    "id": "renegades-eu",
+    "name": "Renegades EU",
+    "logo": "logos/renegades-eu.png"
+  },
+  {
+    "id": "reply-totem",
+    "name": "Reply Totem",
+    "logo": "logos/reply-totem.png"
+  },
+  {
+    "id": "resonant-esports",
+    "name": "Resonant Esports",
+    "logo": "logos/resonant-esports.png"
+  },
+  {
+    "id": "retalsmajiccheese",
+    "name": "RetalsMajicCheese",
+    "logo": null
+  },
+  {
+    "id": "retirement-fund",
+    "name": "Retirement Fund",
+    "logo": null
+  },
+  {
+    "id": "retrospect",
+    "name": "Retrospect",
+    "logo": "logos/retrospect.png"
+  },
+  {
+    "id": "reunited",
+    "name": "REUNITED",
+    "logo": "logos/reunited.png"
+  },
+  {
+    "id": "reveal-multigaming",
+    "name": "Reveal Multigaming",
+    "logo": "logos/reveal-multigaming.png"
+  },
+  {
+    "id": "revolution",
+    "name": "Revolution",
+    "logo": "logos/revolution.png"
+  },
+  {
+    "id": "rex-gaming",
+    "name": "Rex Gaming",
+    "logo": "logos/rex-gaming.png"
+  },
+  {
+    "id": "rise-esports",
+    "name": "Rise Esports",
+    "logo": "logos/rise-esports.png"
+  },
+  {
+    "id": "rix-gg",
+    "name": "Rix.GG",
+    "logo": "logos/rix-gg.png"
+  },
+  {
+    "id": "rizon",
+    "name": "RIZON",
+    "logo": "logos/rizon.png"
+  },
+  {
+    "id": "rizz",
+    "name": "Rizz",
+    "logo": null
+  },
+  {
+    "id": "rjm",
+    "name": "RJM",
+    "logo": "logos/rjm.png"
+  },
+  {
+    "id": "rld",
+    "name": "RLD",
+    "logo": null
+  },
+  {
+    "id": "rnl-roar",
+    "name": "RNL ROAR",
+    "logo": "logos/rnl-roar.png"
+  },
+  {
+    "id": "roc-esports",
+    "name": "ROC Esports",
+    "logo": "logos/roc-esports.png"
+  },
+  {
+    "id": "rogue",
+    "name": "Rogue",
+    "logo": "logos/rogue.png"
+  },
+  {
+    "id": "royal-never-give-up",
+    "name": "Royal Never Give Up",
+    "logo": "logos/royal-never-give-up.png"
+  },
+  {
+    "id": "rrg",
+    "name": "RRG",
+    "logo": "logos/rrg.png"
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "logo": "logos/ruby.png"
+  },
+  {
+    "id": "rule-one",
+    "name": "Rule One",
+    "logo": "logos/rule-one.png"
+  },
+  {
+    "id": "run-n-hide",
+    "name": "Run'n'Hide",
+    "logo": null
+  },
+  {
+    "id": "ruthless-unity",
+    "name": "Ruthless Unity",
+    "logo": "logos/ruthless-unity.png"
+  },
+  {
+    "id": "s-e-a-dragons",
+    "name": "S.E.A. Dragons",
+    "logo": "logos/s-e-a-dragons.png"
+  },
+  {
+    "id": "s2v-esports",
+    "name": "S2V Esports",
+    "logo": "logos/s2v-esports.png"
+  },
+  {
+    "id": "saarbrooklyn-players",
+    "name": "Saarbrooklyn Players",
+    "logo": "logos/saarbrooklyn-players.png"
+  },
+  {
+    "id": "sailingesports",
+    "name": "SailingEsports",
+    "logo": "logos/sailingesports.png"
+  },
+  {
+    "id": "sandrock-gaming",
+    "name": "Sandrock Gaming",
+    "logo": "logos/sandrock-gaming.png"
+  },
+  {
+    "id": "sanguine",
+    "name": "Sanguine",
+    "logo": "logos/sanguine.png"
+  },
+  {
+    "id": "sapphire",
+    "name": "Sapphire",
+    "logo": "logos/sapphire.png"
+  },
+  {
+    "id": "sauce",
+    "name": "Sauce",
+    "logo": null
+  },
+  {
+    "id": "saucesquad",
+    "name": "SauceSquad",
+    "logo": null
+  },
+  {
+    "id": "saudade",
+    "name": "SAUDADE",
+    "logo": "logos/saudade.png"
+  },
+  {
+    "id": "saudi-arabia",
+    "name": "Saudi Arabia",
+    "logo": "logos/saudi-arabia.svg"
+  },
+  {
+    "id": "savage-gaming",
+    "name": "Savage Gaming",
+    "logo": "logos/savage-gaming.png"
+  },
+  {
+    "id": "savage",
+    "name": "Savage!",
+    "logo": "logos/savage.png"
+  },
+  {
+    "id": "save-the-game",
+    "name": "Save the game",
+    "logo": "logos/save-the-game.png"
+  },
+  {
+    "id": "scotland",
+    "name": "Scotland",
+    "logo": "logos/scotland.svg"
+  },
+  {
+    "id": "scrub-killa-gaming",
+    "name": "Scrub Killa Gaming",
+    "logo": null
+  },
+  {
+    "id": "secrecy",
+    "name": "Secrecy",
+    "logo": "logos/secrecy.png"
+  },
+  {
+    "id": "sector-one",
+    "name": "Sector One",
+    "logo": "logos/sector-one.png"
+  },
+  {
+    "id": "see-esports",
+    "name": "SEE eSports",
+    "logo": "logos/see-esports.png"
+  },
+  {
+    "id": "sele-o",
+    "name": "Seleção",
+    "logo": "logos/sele-o.png"
+  },
+  {
+    "id": "selfless-gaming",
+    "name": "Selfless Gaming",
+    "logo": "logos/selfless-gaming.png"
+  },
+  {
+    "id": "sentient-esports",
+    "name": "Sentient Esports",
+    "logo": "logos/sentient-esports.png"
+  },
+  {
+    "id": "servette-geneva-esports",
+    "name": "Servette Geneva Esports",
+    "logo": "logos/servette-geneva-esports.png"
+  },
+  {
+    "id": "settodestroyx",
+    "name": "SetToDestroyX",
+    "logo": "logos/settodestroyx.png"
+  },
+  {
+    "id": "shaky",
+    "name": "Shaky",
+    "logo": null
+  },
+  {
+    "id": "shaman-esports",
+    "name": "Shaman Esports",
+    "logo": "logos/shaman-esports.png"
+  },
+  {
+    "id": "shmongolia",
+    "name": "Shmongolia",
+    "logo": null
+  },
+  {
+    "id": "shoot-n-goal",
+    "name": "Shoot N Goal",
+    "logo": "logos/shoot-n-goal.png"
+  },
+  {
+    "id": "shoot-n-miss",
+    "name": "Shoot N MiSs",
+    "logo": null
+  },
+  {
+    "id": "shopify-rebellion",
+    "name": "Shopify Rebellion",
+    "logo": "logos/shopify-rebellion.png"
+  },
+  {
+    "id": "shuffle-s-kittens",
+    "name": "SHUFFLE'S KITTENS",
+    "logo": null
+  },
+  {
+    "id": "sick",
+    "name": "Sick!",
+    "logo": "logos/sick.png"
+  },
+  {
+    "id": "simtawk-1",
+    "name": "simtawk+1",
+    "logo": null
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "logo": "logos/singapore.svg"
+  },
+  {
+    "id": "sk-gaming",
+    "name": "SK Gaming",
+    "logo": "logos/sk-gaming.png"
+  },
+  {
+    "id": "sleeping",
+    "name": "Sleeping",
+    "logo": "logos/sleeping.png"
+  },
+  {
+    "id": "smiley-face",
+    "name": "Smiley Face",
+    "logo": null
+  },
+  {
+    "id": "smokin-rockets",
+    "name": "Smokin Rockets",
+    "logo": "logos/smokin-rockets.png"
+  },
+  {
+    "id": "smpr-esports",
+    "name": "SMPR Esports",
+    "logo": "logos/smpr-esports.png"
+  },
+  {
+    "id": "sneakybois",
+    "name": "Sneakybois",
+    "logo": "logos/sneakybois.png"
+  },
+  {
+    "id": "snk-esports",
+    "name": "SnK eSports",
+    "logo": "logos/snk-esports.png"
+  },
+  {
+    "id": "soklovi",
+    "name": "Soklovi",
+    "logo": "logos/soklovi.png"
+  },
+  {
+    "id": "solary",
+    "name": "Solary",
+    "logo": "logos/solary.png"
+  },
+  {
+    "id": "soniqs",
+    "name": "Soniqs",
+    "logo": "logos/soniqs.png"
+  },
+  {
+    "id": "south-africa",
+    "name": "South Africa",
+    "logo": "logos/south-africa.svg"
+  },
+  {
+    "id": "spacestation-gaming",
+    "name": "Spacestation Gaming",
+    "logo": "logos/spacestation-gaming.png"
+  },
+  {
+    "id": "spain",
+    "name": "Spain",
+    "logo": "logos/spain.svg"
+  },
+  {
+    "id": "spectral",
+    "name": "Spectral",
+    "logo": "logos/spectral.png"
+  },
+  {
+    "id": "srz",
+    "name": "SRZ",
+    "logo": null
+  },
+  {
+    "id": "st-clair-college",
+    "name": "St. Clair College",
+    "logo": "logos/st-clair-college.png"
+  },
+  {
+    "id": "st-edward-s-university",
+    "name": "St. Edward's University",
+    "logo": "logos/st-edward-s-university.png"
+  },
+  {
+    "id": "startpoint",
+    "name": "Startpoint",
+    "logo": "logos/startpoint.png"
+  },
+  {
+    "id": "stealth7-esports",
+    "name": "Stealth7 eSports",
+    "logo": "logos/stealth7-esports.png"
+  },
+  {
+    "id": "stellar-way",
+    "name": "Stellar Way",
+    "logo": "logos/stellar-way.png"
+  },
+  {
+    "id": "stick-mick",
+    "name": "Stick mick",
+    "logo": null
+  },
+  {
+    "id": "stonker-bro",
+    "name": "stonker bro",
+    "logo": null
+  },
+  {
+    "id": "stormtroopers",
+    "name": "Stormtroopers",
+    "logo": "logos/stormtroopers.png"
+  },
+  {
+    "id": "strictly-business",
+    "name": "Strictly Business",
+    "logo": null
+  },
+  {
+    "id": "stromboli",
+    "name": "Stromboli",
+    "logo": "logos/stromboli.png"
+  },
+  {
+    "id": "sudor-esports",
+    "name": "Sudor Esports",
+    "logo": "logos/sudor-esports.png"
+  },
+  {
+    "id": "suhhh",
+    "name": "suhhh",
+    "logo": "logos/suhhh.png"
+  },
+  {
+    "id": "sui",
+    "name": "sui.",
+    "logo": "logos/sui.png"
+  },
+  {
+    "id": "sunrise",
+    "name": "Sunrise",
+    "logo": null
+  },
+  {
+    "id": "sunset",
+    "name": "Sunset",
+    "logo": "logos/sunset.png"
+  },
+  {
+    "id": "sup",
+    "name": "sup",
+    "logo": "logos/sup.png"
+  },
+  {
+    "id": "super-team",
+    "name": "Super Team",
+    "logo": null
+  },
+  {
+    "id": "supersonic-avengers",
+    "name": "Supersonic Avengers",
+    "logo": "logos/supersonic-avengers.png"
+  },
+  {
+    "id": "supersonic-stars",
+    "name": "Supersonic Stars",
+    "logo": null
+  },
+  {
+    "id": "suprmode",
+    "name": "SUPRMODE",
+    "logo": "logos/suprmode.png"
+  },
+  {
+    "id": "swag",
+    "name": "Swag",
+    "logo": null
+  },
+  {
+    "id": "swarm-gaming",
+    "name": "Swarm Gaming",
+    "logo": "logos/swarm-gaming.png"
+  },
+  {
+    "id": "sweden",
+    "name": "Sweden",
+    "logo": "logos/sweden.svg"
+  },
+  {
+    "id": "switzerland",
+    "name": "Switzerland",
+    "logo": "logos/switzerland.svg"
+  },
+  {
+    "id": "syf-gaming",
+    "name": "SYF Gaming",
+    "logo": "logos/syf-gaming.png"
+  },
+  {
+    "id": "synergy",
+    "name": "Synergy",
+    "logo": "logos/synergy.png"
+  },
+  {
+    "id": "tainted-minds",
+    "name": "Tainted Minds",
+    "logo": "logos/tainted-minds.png"
+  },
+  {
+    "id": "take-3",
+    "name": "Take 3",
+    "logo": "logos/take-3.png"
+  },
+  {
+    "id": "take-flyte",
+    "name": "Take Flyte",
+    "logo": "logos/take-flyte.png"
+  },
+  {
+    "id": "taskforce",
+    "name": "TaskForce",
+    "logo": null
+  },
+  {
+    "id": "tea",
+    "name": "TEA",
+    "logo": null
+  },
+  {
+    "id": "tea-time",
+    "name": "Tea Time",
+    "logo": "logos/tea-time.png"
+  },
+  {
+    "id": "team-axle",
+    "name": "Team AXLE",
+    "logo": "logos/team-axle.png"
+  },
+  {
+    "id": "team-aztra",
+    "name": "Team Aztra",
+    "logo": "logos/team-aztra.png"
+  },
+  {
+    "id": "team-bds",
+    "name": "Team BDS",
+    "logo": "logos/team-bds.png"
+  },
+  {
+    "id": "team-bsk",
+    "name": "Team BSK",
+    "logo": "logos/team-bsk.png"
+  },
+  {
+    "id": "team-chemistry",
+    "name": "Team Chemistry",
+    "logo": null
+  },
+  {
+    "id": "team-dgeneration",
+    "name": "Team dGeneration",
+    "logo": "logos/team-dgeneration.png"
+  },
+  {
+    "id": "team-enjoy",
+    "name": "Team Enjoy",
+    "logo": "logos/team-enjoy.png"
+  },
+  {
+    "id": "team-eros",
+    "name": "Team Eros",
+    "logo": "logos/team-eros.png"
+  },
+  {
+    "id": "team-evo",
+    "name": "Team Evo",
+    "logo": "logos/team-evo.png"
+  },
+  {
+    "id": "team-falcons",
+    "name": "Team Falcons",
+    "logo": "logos/team-falcons.png"
+  },
+  {
+    "id": "team-flux",
+    "name": "Team Flux",
+    "logo": "logos/team-flux.png"
+  },
+  {
+    "id": "team-infused",
+    "name": "Team Infused",
+    "logo": "logos/team-infused.png"
+  },
+  {
+    "id": "team-liquid",
+    "name": "Team Liquid",
+    "logo": "logos/team-liquid.png"
+  },
+  {
+    "id": "team-luxury",
+    "name": "Team LuXury",
+    "logo": "logos/team-luxury.png"
+  },
+  {
+    "id": "team-mces",
+    "name": "Team MCES",
+    "logo": "logos/team-mces.png"
+  },
+  {
+    "id": "team-m-bula",
+    "name": "Team Móbula",
+    "logo": "logos/team-m-bula.png"
+  },
+  {
+    "id": "team-orange",
+    "name": "Team Orange",
+    "logo": null
+  },
+  {
+    "id": "team-queso",
+    "name": "Team Queso",
+    "logo": "logos/team-queso.png"
+  },
+  {
+    "id": "team-reciprocity",
+    "name": "Team Reciprocity",
+    "logo": "logos/team-reciprocity.png"
+  },
+  {
+    "id": "team-reds",
+    "name": "Team Reds",
+    "logo": "logos/team-reds.png"
+  },
+  {
+    "id": "team-renewed",
+    "name": "Team Renewed",
+    "logo": null
+  },
+  {
+    "id": "team-secret",
+    "name": "Team Secret",
+    "logo": "logos/team-secret.png"
+  },
+  {
+    "id": "team-shazoo",
+    "name": "Team Shazoo",
+    "logo": "logos/team-shazoo.png"
+  },
+  {
+    "id": "team-singularity",
+    "name": "Team Singularity",
+    "logo": "logos/team-singularity.png"
+  },
+  {
+    "id": "team-skyfire",
+    "name": "Team Skyfire",
+    "logo": "logos/team-skyfire.png"
+  },
+  {
+    "id": "team-solid",
+    "name": "Team Solid",
+    "logo": "logos/team-solid.png"
+  },
+  {
+    "id": "team-stallions",
+    "name": "Team Stallions",
+    "logo": "logos/team-stallions.png"
+  },
+  {
+    "id": "team-tsk",
+    "name": "Team TSK",
+    "logo": "logos/team-tsk.png"
+  },
+  {
+    "id": "team-twitter",
+    "name": "Team Twitter",
+    "logo": null
+  },
+  {
+    "id": "team-vertex",
+    "name": "Team Vertex",
+    "logo": "logos/team-vertex.png"
+  },
+  {
+    "id": "team-vision",
+    "name": "Team Vision",
+    "logo": "logos/team-vision.png"
+  },
+  {
+    "id": "team-vitality",
+    "name": "Team Vitality",
+    "logo": "logos/team-vitality.png"
+  },
+  {
+    "id": "team-wmb",
+    "name": "Team WMB",
+    "logo": "logos/team-wmb.png"
+  },
+  {
+    "id": "team-x",
+    "name": "Team X",
+    "logo": "logos/team-x.png"
+  },
+  {
+    "id": "team3",
+    "name": "Team3",
+    "logo": null
+  },
+  {
+    "id": "teamorangegaming",
+    "name": "TeamOrangeGaming",
+    "logo": "logos/teamorangegaming.png"
+  },
+  {
+    "id": "teamy-weamy",
+    "name": "Teamy Weamy",
+    "logo": "logos/teamy-weamy.png"
+  },
+  {
+    "id": "tech",
+    "name": "tech",
+    "logo": null
+  },
+  {
+    "id": "thanos",
+    "name": "thanos",
+    "logo": "logos/thanos.png"
+  },
+  {
+    "id": "the-3-musketeers",
+    "name": "The 3 Musketeers",
+    "logo": "logos/the-3-musketeers.png"
+  },
+  {
+    "id": "the-boys",
+    "name": "The Boys",
+    "logo": null
+  },
+  {
+    "id": "the-bricks",
+    "name": "The Bricks",
+    "logo": "logos/the-bricks.png"
+  },
+  {
+    "id": "the-clappers",
+    "name": "The Clappers",
+    "logo": "logos/the-clappers.png"
+  },
+  {
+    "id": "the-club",
+    "name": "The Club",
+    "logo": "logos/the-club.png"
+  },
+  {
+    "id": "the-curling-kids",
+    "name": "The Curling Kids",
+    "logo": null
+  },
+  {
+    "id": "the-d00ds",
+    "name": "The D00ds",
+    "logo": "logos/the-d00ds.png"
+  },
+  {
+    "id": "the-demunz",
+    "name": "The Demunz",
+    "logo": null
+  },
+  {
+    "id": "the-dutch-eagles",
+    "name": "The Dutch Eagles",
+    "logo": null
+  },
+  {
+    "id": "the-egoists",
+    "name": "The Egoists",
+    "logo": null
+  },
+  {
+    "id": "the-flying-dutchmen",
+    "name": "The Flying Dutchmen",
+    "logo": "logos/the-flying-dutchmen.png"
+  },
+  {
+    "id": "the-gospel-of-lachlan",
+    "name": "The Gospel of Lachlan",
+    "logo": null
+  },
+  {
+    "id": "the-him-police",
+    "name": "the him police",
+    "logo": "logos/the-him-police.png"
+  },
+  {
+    "id": "the-hosses",
+    "name": "The Hosses",
+    "logo": null
+  },
+  {
+    "id": "the-immigrants",
+    "name": "The Immigrants",
+    "logo": null
+  },
+  {
+    "id": "the-lakeshow",
+    "name": "The Lakeshow",
+    "logo": "logos/the-lakeshow.png"
+  },
+  {
+    "id": "the-lanimals",
+    "name": "The LANimals",
+    "logo": null
+  },
+  {
+    "id": "the-last-last-dance",
+    "name": "The Last Last Dance",
+    "logo": null
+  },
+  {
+    "id": "the-leftovers",
+    "name": "The Leftovers",
+    "logo": "logos/the-leftovers.png"
+  },
+  {
+    "id": "the-mailmen",
+    "name": "The Mailmen",
+    "logo": null
+  },
+  {
+    "id": "the-muffin-men",
+    "name": "The Muffin Men",
+    "logo": "logos/the-muffin-men.png"
+  },
+  {
+    "id": "the-mustyteers",
+    "name": "The mustyteers",
+    "logo": null
+  },
+  {
+    "id": "the-odyssey",
+    "name": "The Odyssey",
+    "logo": "logos/the-odyssey.png"
+  },
+  {
+    "id": "the-office",
+    "name": "The Office",
+    "logo": "logos/the-office.png"
+  },
+  {
+    "id": "the-peeps-australian-team",
+    "name": "The Peeps (Australian Team)",
+    "logo": null
+  },
+  {
+    "id": "the-rejects",
+    "name": "The Rejects",
+    "logo": "logos/the-rejects.png"
+  },
+  {
+    "id": "the-rightovers",
+    "name": "The Rightovers",
+    "logo": "logos/the-rightovers.png"
+  },
+  {
+    "id": "the-snowmen",
+    "name": "The Snowmen",
+    "logo": "logos/the-snowmen.png"
+  },
+  {
+    "id": "the-three-sins",
+    "name": "The Three Sins",
+    "logo": "logos/the-three-sins.png"
+  },
+  {
+    "id": "the-ultimates",
+    "name": "The Ultimates",
+    "logo": "logos/the-ultimates.png"
+  },
+  {
+    "id": "three-aces",
+    "name": "Three Aces",
+    "logo": "logos/three-aces.png"
+  },
+  {
+    "id": "three-point-shooters",
+    "name": "Three Point Shooters",
+    "logo": "logos/three-point-shooters.png"
+  },
+  {
+    "id": "tier1",
+    "name": "Tier1",
+    "logo": "logos/tier1.png"
+  },
+  {
+    "id": "timeless",
+    "name": "Timeless",
+    "logo": "logos/timeless.png"
+  },
+  {
+    "id": "titanium-ricochet",
+    "name": "Titanium Ricochet",
+    "logo": "logos/titanium-ricochet.png"
+  },
+  {
+    "id": "tlt",
+    "name": "TLT",
+    "logo": null
+  },
+  {
+    "id": "to-the-moon",
+    "name": "To The Moon",
+    "logo": "logos/to-the-moon.png"
+  },
+  {
+    "id": "tokyo-tigers",
+    "name": "Tokyo Tigers",
+    "logo": "logos/tokyo-tigers.png"
+  },
+  {
+    "id": "top-blokes",
+    "name": "Top Blokes",
+    "logo": "logos/top-blokes.png"
+  },
+  {
+    "id": "top-cougars",
+    "name": "Top Cougars",
+    "logo": "logos/top-cougars.png"
+  },
+  {
+    "id": "top-leh",
+    "name": "Top Leh",
+    "logo": "logos/top-leh.png"
+  },
+  {
+    "id": "torrent",
+    "name": "Torrent",
+    "logo": "logos/torrent.png"
+  },
+  {
+    "id": "totalschaden",
+    "name": "Totalschaden",
+    "logo": null
+  },
+  {
+    "id": "trainhard-esport",
+    "name": "TrainHard eSport",
+    "logo": "logos/trainhard-esport.png"
+  },
+  {
+    "id": "training-wheels",
+    "name": "Training Wheels",
+    "logo": "logos/training-wheels.png"
+  },
+  {
+    "id": "tre-cani",
+    "name": "Tre Cani",
+    "logo": "logos/tre-cani.png"
+  },
+  {
+    "id": "treehouse",
+    "name": "Treehouse",
+    "logo": null
+  },
+  {
+    "id": "trident-esports",
+    "name": "Trident Esports",
+    "logo": "logos/trident-esports.png"
+  },
+  {
+    "id": "triple-t",
+    "name": "Triple T",
+    "logo": "logos/triple-t.png"
+  },
+  {
+    "id": "triple-threat",
+    "name": "Triple Threat",
+    "logo": null
+  },
+  {
+    "id": "triple-trouble",
+    "name": "Triple Trouble",
+    "logo": "logos/triple-trouble.png"
+  },
+  {
+    "id": "trkf-esport",
+    "name": "TRKF Esport",
+    "logo": "logos/trkf-esport.png"
+  },
+  {
+    "id": "trt",
+    "name": "TRT",
+    "logo": null
+  },
+  {
+    "id": "true-neutral",
+    "name": "True Neutral",
+    "logo": "logos/true-neutral.png"
+  },
+  {
+    "id": "tsm",
+    "name": "TSM",
+    "logo": "logos/tsm.png"
+  },
+  {
+    "id": "tsunami",
+    "name": "Tsunami",
+    "logo": "logos/tsunami.png"
+  },
+  {
+    "id": "tsurani",
+    "name": "Tsurani",
+    "logo": null
+  },
+  {
+    "id": "tt-willhaben",
+    "name": "TT willhaben",
+    "logo": "logos/tt-willhaben.png"
+  },
+  {
+    "id": "tundra-esports",
+    "name": "Tundra Esports",
+    "logo": "logos/tundra-esports.png"
+  },
+  {
+    "id": "turbulence",
+    "name": "Turbulence",
+    "logo": null
+  },
+  {
+    "id": "turkish-fc",
+    "name": "Turkish FC",
+    "logo": null
+  },
+  {
+    "id": "twisted-minds",
+    "name": "Twisted Minds",
+    "logo": "logos/twisted-minds.png"
+  },
+  {
+    "id": "two-and-a-half-men",
+    "name": "Two and a Half Men",
+    "logo": null
+  },
+  {
+    "id": "unc-status",
+    "name": "unc status",
+    "logo": null
+  },
+  {
+    "id": "unilad-esports",
+    "name": "UNILAD Esports",
+    "logo": "logos/unilad-esports.png"
+  },
+  {
+    "id": "uniq-esports-club",
+    "name": "UniQ Esports Club",
+    "logo": "logos/uniq-esports-club.png"
+  },
+  {
+    "id": "united-kingdom",
+    "name": "United Kingdom",
+    "logo": "logos/united-kingdom.svg"
+  },
+  {
+    "id": "united-states",
+    "name": "United States",
+    "logo": "logos/united-states.svg"
+  },
+  {
+    "id": "university-of-new-south-wales-roar",
+    "name": "University of New South Wales Roar",
+    "logo": "logos/university-of-new-south-wales-roar.png"
+  },
+  {
+    "id": "unknown-team",
+    "name": "Unknown team",
+    "logo": "logos/unknown-team.png"
+  },
+  {
+    "id": "unreal-nightmare",
+    "name": "Unreal Nightmare",
+    "logo": "logos/unreal-nightmare.png"
+  },
+  {
+    "id": "untethered",
+    "name": "Untethered",
+    "logo": "logos/untethered.png"
+  },
+  {
+    "id": "upper90-esports",
+    "name": "Upper90 Esports",
+    "logo": "logos/upper90-esports.png"
+  },
+  {
+    "id": "urban-myths",
+    "name": "Urban Myths",
+    "logo": null
+  },
+  {
+    "id": "us-r-bad",
+    "name": "us r bad",
+    "logo": null
+  },
+  {
+    "id": "uwu",
+    "name": "UwU",
+    "logo": null
+  },
+  {
+    "id": "valiant",
+    "name": "Valiant",
+    "logo": "logos/valiant.png"
+  },
+  {
+    "id": "valors",
+    "name": "Valors",
+    "logo": "logos/valors.png"
+  },
+  {
+    "id": "vanguard",
+    "name": "Vanguard",
+    "logo": "logos/vanguard.png"
+  },
+  {
+    "id": "veloce-esports",
+    "name": "Veloce Esports",
+    "logo": "logos/veloce-esports.png"
+  },
+  {
+    "id": "velocitas",
+    "name": "Velocitas",
+    "logo": null
+  },
+  {
+    "id": "venc-gaming",
+    "name": "VENC Gaming",
+    "logo": "logos/venc-gaming.png"
+  },
+  {
+    "id": "vendetta",
+    "name": "Vendetta",
+    "logo": "logos/vendetta.png"
+  },
+  {
+    "id": "version1",
+    "name": "Version1",
+    "logo": "logos/version1.png"
+  },
+  {
+    "id": "vexx-gaming",
+    "name": "VexX Gaming",
+    "logo": "logos/vexx-gaming.png"
+  },
+  {
+    "id": "vibe-vibin",
+    "name": "Vibe Vibin'",
+    "logo": "logos/vibe-vibin.png"
+  },
+  {
+    "id": "victory-esports",
+    "name": "Victory Esports",
+    "logo": "logos/victory-esports.png"
+  },
+  {
+    "id": "vikings",
+    "name": "Vikings",
+    "logo": "logos/vikings.svg"
+  },
+  {
+    "id": "villains-esc",
+    "name": "Villains ESC",
+    "logo": "logos/villains-esc.png"
+  },
+  {
+    "id": "vindicatorgg",
+    "name": "VindicatorGG",
+    "logo": "logos/vindicatorgg.png"
+  },
+  {
+    "id": "vindico",
+    "name": "Vindico",
+    "logo": "logos/vindico.png"
+  },
+  {
+    "id": "virtus-pro",
+    "name": "Virtus.pro",
+    "logo": "logos/virtus-pro.png"
+  },
+  {
+    "id": "visiongaming",
+    "name": "VisionGaming",
+    "logo": "logos/visiongaming.png"
+  },
+  {
+    "id": "vizard",
+    "name": "Vizard",
+    "logo": "logos/vizard.png"
+  },
+  {
+    "id": "void",
+    "name": "VoiD",
+    "logo": null
+  },
+  {
+    "id": "volare",
+    "name": "Volare",
+    "logo": "logos/volare.png"
+  },
+  {
+    "id": "vq-untethered",
+    "name": "vQ Untethered",
+    "logo": "logos/vq-untethered.png"
+  },
+  {
+    "id": "w2d",
+    "name": "W2D",
+    "logo": "logos/w2d.png"
+  },
+  {
+    "id": "w7m-esports",
+    "name": "w7m esports",
+    "logo": "logos/w7m-esports.png"
+  },
+  {
+    "id": "waiting-screen",
+    "name": "Waiting Screen",
+    "logo": null
+  },
+  {
+    "id": "wales",
+    "name": "Wales",
+    "logo": "logos/wales.svg"
+  },
+  {
+    "id": "wassup",
+    "name": "WASSUP",
+    "logo": "logos/wassup.png"
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "logo": null
+  },
+  {
+    "id": "we-dem-babies",
+    "name": "We Dem Babies",
+    "logo": "logos/we-dem-babies.png"
+  },
+  {
+    "id": "we-dem-girlz",
+    "name": "We Dem Girlz",
+    "logo": "logos/we-dem-girlz.png"
+  },
+  {
+    "id": "we-try-win",
+    "name": "WE TRY WIN",
+    "logo": null
+  },
+  {
+    "id": "wedemmois",
+    "name": "WeDemMois",
+    "logo": null
+  },
+  {
+    "id": "west-virginia-university",
+    "name": "West Virginia University",
+    "logo": "logos/west-virginia-university.png"
+  },
+  {
+    "id": "what-you-love",
+    "name": "What You Love",
+    "logo": null
+  },
+  {
+    "id": "white-angels",
+    "name": "White Angels",
+    "logo": null
+  },
+  {
+    "id": "white-demons",
+    "name": "White Demons",
+    "logo": "logos/white-demons.png"
+  },
+  {
+    "id": "wicked-sailors",
+    "name": "Wicked Sailors",
+    "logo": "logos/wicked-sailors.png"
+  },
+  {
+    "id": "wildcard",
+    "name": "Wildcard",
+    "logo": "logos/wildcard.png"
+  },
+  {
+    "id": "willywonkerpoodles",
+    "name": "WillyWonkerPoodles",
+    "logo": null
+  },
+  {
+    "id": "winthrop-university",
+    "name": "Winthrop University",
+    "logo": "logos/winthrop-university.png"
+  },
+  {
+    "id": "wolves-esports",
+    "name": "Wolves Esports",
+    "logo": "logos/wolves-esports.png"
+  },
+  {
+    "id": "wright-light",
+    "name": "Wright Light",
+    "logo": null
+  },
+  {
+    "id": "wylde",
+    "name": "WYLDE",
+    "logo": "logos/wylde.png"
+  },
+  {
+    "id": "x",
+    "name": "x",
+    "logo": null
+  },
+  {
+    "id": "xo-esports",
+    "name": "XO Esports",
+    "logo": "logos/xo-esports.png"
+  },
+  {
+    "id": "xset",
+    "name": "XSET",
+    "logo": "logos/xset.png"
+  },
+  {
+    "id": "xylaga",
+    "name": "Xylaga",
+    "logo": null
+  },
+  {
+    "id": "yikers",
+    "name": "Yikers",
+    "logo": null
+  },
+  {
+    "id": "you-not-a-champ-you-a-clown",
+    "name": "You not a champ. you a clown.",
+    "logo": null
+  },
+  {
+    "id": "you-see-me",
+    "name": "You See Me",
+    "logo": "logos/you-see-me.png"
+  },
+  {
+    "id": "zenomoon",
+    "name": "ZeNoMoon",
+    "logo": "logos/zenomoon.png"
+  },
+  {
+    "id": "zentox",
+    "name": "ZentoX",
+    "logo": null
+  },
+  {
+    "id": "zero-issue",
+    "name": "Zero Issue",
+    "logo": "logos/zero-issue.png"
+  },
+  {
+    "id": "zntrx",
+    "name": "ZNTRX",
+    "logo": "logos/zntrx.png"
+  },
+  {
+    "id": "necesito-turbo",
+    "name": "¿¡Necesito Turbo!?",
+    "logo": null
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "_comment": "Correspondance manuelle tag du roster -> pagename Liquipedia exact. A remplir uniquement pour les tags que build_data.py n'arrive pas a resoudre tout seul (ils sont listes dans build-report.json sous unresolved_tags). Les cles commencant par _ sont ignorees.",
+  "_exemple": "\"fairy peak\": \"Fairy Peak!\"",
+  "Rust ez": "Rust_ez95",
+  "Turtle": "TooSlow"
+}

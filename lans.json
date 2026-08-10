@@ -1,0 +1,226 @@
+[
+  {
+    "id": "rlcs-season-1-finals",
+    "name": "RLCS Season 1 - Finals",
+    "date": "2016-08-06",
+    "city": "Los Angeles",
+    "country": "us"
+  },
+  {
+    "id": "rlcs-season-2-finals",
+    "name": "RLCS Season 2 - Finals",
+    "date": "2016-12-03",
+    "city": "Amsterdam",
+    "country": "nl"
+  },
+  {
+    "id": "rlcs-season-3-finals",
+    "name": "RLCS Season 3 - Finals",
+    "date": "2017-06-02",
+    "city": "Los Angeles",
+    "country": "us"
+  },
+  {
+    "id": "rlcs-season-4-finals",
+    "name": "RLCS Season 4 - Finals",
+    "date": "2017-11-10",
+    "city": "Washington D.C.",
+    "country": "us"
+  },
+  {
+    "id": "eleague-cup-2017-rocket-league",
+    "name": "ELEAGUE Cup 2017: Rocket League",
+    "date": "2017-12-01",
+    "city": "Atlanta",
+    "country": "us"
+  },
+  {
+    "id": "rlcs-season-5-finals",
+    "name": "RLCS Season 5 - Finals",
+    "date": "2018-06-08",
+    "city": "London",
+    "country": "gb"
+  },
+  {
+    "id": "rlcs-season-6-finals",
+    "name": "RLCS Season 6 - Finals",
+    "date": "2018-11-09",
+    "city": "Las Vegas",
+    "country": "us"
+  },
+  {
+    "id": "eleague-cup-2018-rocket-league",
+    "name": "ELEAGUE Cup 2018: Rocket League",
+    "date": "2018-11-30",
+    "city": "Atlanta",
+    "country": "us"
+  },
+  {
+    "id": "rlcs-season-7-finals",
+    "name": "RLCS Season 7 - Finals",
+    "date": "2019-06-21",
+    "city": "Newark",
+    "country": "us"
+  },
+  {
+    "id": "rlcs-season-8-finals",
+    "name": "RLCS Season 8 - Finals",
+    "date": "2019-12-13",
+    "city": "Madrid",
+    "country": "es"
+  },
+  {
+    "id": "rlcs-2021-22-fall-split-major",
+    "name": "RLCS 2021-22 - Fall Split Major",
+    "date": "2021-12-08",
+    "city": "Stockholm",
+    "country": "se"
+  },
+  {
+    "id": "rlcs-2021-22-winter-split-major",
+    "name": "RLCS 2021-22 - Winter Split Major",
+    "date": "2022-03-23",
+    "city": "Los Angeles",
+    "country": "us"
+  },
+  {
+    "id": "rlcs-2021-22-spring-split-major",
+    "name": "RLCS 2021-22 - Spring Split Major",
+    "date": "2022-06-29",
+    "city": "London",
+    "country": "gb"
+  },
+  {
+    "id": "rlcs-2021-22-world-championship",
+    "name": "RLCS 2021-22 - World Championship",
+    "date": "2022-08-04",
+    "city": "Fort Worth",
+    "country": "us"
+  },
+  {
+    "id": "rlcs-2022-23-fall-split-major",
+    "name": "RLCS 2022-23 - Fall Split Major",
+    "date": "2022-12-08",
+    "city": "Rotterdam",
+    "country": "nl"
+  },
+  {
+    "id": "rlcs-2022-23-winter-split-major",
+    "name": "RLCS 2022-23 - Winter Split Major",
+    "date": "2023-04-06",
+    "city": "San Diego",
+    "country": "us"
+  },
+  {
+    "id": "collegiate-rocket-league-2023-world-championship",
+    "name": "Collegiate Rocket League 2023 - World Championship",
+    "date": "2023-06-02",
+    "city": "Dallas",
+    "country": "us"
+  },
+  {
+    "id": "rlcs-2022-23-spring-split-major",
+    "name": "RLCS 2022-23 - Spring Split Major",
+    "date": "2023-07-06",
+    "city": "Boston",
+    "country": "us"
+  },
+  {
+    "id": "rlcs-2022-23-world-championship",
+    "name": "RLCS 2022-23 - World Championship",
+    "date": "2023-08-03",
+    "city": "Düsseldorf",
+    "country": "de"
+  },
+  {
+    "id": "rlcs-2024-major-1-copenhagen",
+    "name": "RLCS 2024 - Major 1: Copenhagen",
+    "date": "2024-03-28",
+    "city": "Copenhagen",
+    "country": "dk"
+  },
+  {
+    "id": "rlcs-2024-major-2-london",
+    "name": "RLCS 2024 - Major 2: London",
+    "date": "2024-06-20",
+    "city": "London",
+    "country": "gb"
+  },
+  {
+    "id": "esports-world-cup-2024",
+    "name": "Esports World Cup 2024",
+    "date": "2024-08-22",
+    "city": "Riyadh",
+    "country": "sa"
+  },
+  {
+    "id": "rlcs-2024-world-championship",
+    "name": "RLCS 2024 - World Championship",
+    "date": "2024-09-10",
+    "city": "Fort Worth",
+    "country": "us"
+  },
+  {
+    "id": "fifae-world-cup-2024",
+    "name": "FIFAe World Cup 2024",
+    "date": "2024-12-05",
+    "city": "Riyadh",
+    "country": "sa"
+  },
+  {
+    "id": "rlcs-2025-birmingham-major",
+    "name": "RLCS 2025 - Birmingham Major",
+    "date": "2025-03-27",
+    "city": "Birmingham",
+    "country": "gb"
+  },
+  {
+    "id": "rlcs-2025-raleigh-major",
+    "name": "RLCS 2025 - Raleigh Major",
+    "date": "2025-06-26",
+    "city": "Raleigh",
+    "country": "us"
+  },
+  {
+    "id": "esports-world-cup-2025",
+    "name": "Esports World Cup 2025",
+    "date": "2025-08-14",
+    "city": "Riyadh",
+    "country": "sa"
+  },
+  {
+    "id": "rlcs-2025-world-championship",
+    "name": "RLCS 2025 - World Championship",
+    "date": "2025-09-10",
+    "city": "Décines-Charpieu",
+    "country": "fr"
+  },
+  {
+    "id": "rlcs-2026-kick-off-weekend",
+    "name": "RLCS 2026 - Kick-Off Weekend",
+    "date": "2025-12-07",
+    "city": "Copenhagen",
+    "country": "dk"
+  },
+  {
+    "id": "fifae-world-cup-2025",
+    "name": "FIFAe World Cup 2025",
+    "date": "2025-12-15",
+    "city": "Riyadh",
+    "country": "sa"
+  },
+  {
+    "id": "rlcs-2026-boston-major",
+    "name": "RLCS 2026 - Boston Major",
+    "date": "2026-02-19",
+    "city": "Boston",
+    "country": "us"
+  },
+  {
+    "id": "rlcs-2026-paris-major",
+    "name": "RLCS 2026 - Paris Major",
+    "date": "2026-05-20",
+    "city": "Nanterre",
+    "country": "fr"
+  }
+]
